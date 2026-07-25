@@ -25,6 +25,14 @@
     <div id="bike-content">
       <!-- filled automatically from data/bikes.json based on the ?id= in the URL -->
     </div>
+
+    <!-- Fullscreen image viewer, opened when a slider photo is clicked -->
+    <div class="lightbox" id="lightbox" hidden>
+      <button class="lightbox-close" id="lightbox-close" aria-label="Sluiten">&times;</button>
+      <button class="slider-btn prev" id="lightbox-prev" aria-label="Vorige foto">&#8249;</button>
+      <img id="lightbox-img" src="" alt="">
+      <button class="slider-btn next" id="lightbox-next" aria-label="Volgende foto">&#8250;</button>
+    </div>
   </div>
 </section>
 
