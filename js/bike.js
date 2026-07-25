@@ -39,10 +39,7 @@ function renderBike(bike) {
   return `
     <div class="detail-grid">
       <div class="detail-gallery">
-        <div class="main-image">
-          <img id="main-img" src="${bike.cover}" alt="${bike.name}" onerror="this.style.display='none'">
-        </div>
-        <div class="thumb-row" id="thumb-row"></div>
+        <div class="slider" id="bike-slider"></div>
       </div>
 
       <div class="detail-info">
@@ -71,13 +68,54 @@ function renderBike(bike) {
 }
 
 function setupGallery(bike) {
-  const row = document.getElementById('thumb-row');
-  const mainImg = document.getElementById('main-img');
+  const slider = document.getElementById('bike-slider');
   const images = [bike.cover, ...(bike.gallery || [])];
+  let current = 0;
 
-  row.innerHTML = images.map(src => `<img src="${src}" onerror="this.style.display='none'">`).join('');
+  // Build the slide track
+  const track = document.createElement('div');
+  track.className = 'slider-track';
+  track.innerHTML = images.map(src => `
+    <div class="slider-slide"><img src="${src}" alt="${bike.name}" onerror="this.closest('.slider-slide').style.background='var(--color-bg-elevated)'"></div>
+  `).join('');
+  slider.appendChild(track);
 
-  row.querySelectorAll('img').forEach(img => {
-    img.addEventListener('click', () => { mainImg.src = img.src; });
-  });
+  // Only add arrows and dots when there is more than one image
+  if (images.length > 1) {
+    const prevBtn = document.createElement('button');
+    prevBtn.className = 'slider-btn prev';
+    prevBtn.setAttribute('aria-label', 'Vorige foto');
+    prevBtn.textContent = '\u2039';
+
+    const nextBtn = document.createElement('button');
+    nextBtn.className = 'slider-btn next';
+    nextBtn.setAttribute('aria-label', 'Volgende foto');
+    nextBtn.textContent = '\u203A';
+
+    const dots = document.createElement('div');
+    dots.className = 'slider-dots';
+    dots.innerHTML = images.map((_, i) => `<button class="dot${i === 0 ? ' active' : ''}" aria-label="Foto ${i + 1}"></button>`).join('');
+
+    slider.append(prevBtn, nextBtn, dots);
+
+    const dotEls = dots.querySelectorAll('.dot');
+
+    function goTo(index) {
+      current = (index + images.length) % images.length;
+      track.style.transform = `translateX(-${current * 100}%)`;
+      dotEls.forEach((d, i) => d.classList.toggle('active', i === current));
+    }
+
+    prevBtn.addEventListener('click', () => goTo(current - 1));
+    nextBtn.addEventListener('click', () => goTo(current + 1));
+    dotEls.forEach((dot, i) => dot.addEventListener('click', () => goTo(i)));
+
+    // Basic swipe support for mobile
+    let startX = 0;
+    slider.addEventListener('touchstart', e => { startX = e.touches[0].clientX; }, { passive: true });
+    slider.addEventListener('touchend', e => {
+      const diff = e.changedTouches[0].clientX - startX;
+      if (Math.abs(diff) > 40) goTo(diff > 0 ? current - 1 : current + 1);
+    }, { passive: true });
+  }
 }
