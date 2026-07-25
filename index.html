@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gereviseerde E-bikes — Elektrische fietsen showroom</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand">e-bikes<span>.gereviseerd</span></a>
+    <nav>
+      <a href="#catalog">Beschikbare fietsen</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <div class="hero-eyebrow">Revisie en verkoop van elektrische fietsen</div>
+    <h1>Elke fiets die wij reviseren wordt gecontroleerd, hersteld en getest voordat hij bij jou komt</h1>
+    <p>Een showroom met alle momenteel beschikbare gereviseerde e-bikes, inclusief exacte details over elk nieuw of gebruikt onderdeel en de garantie op elke fiets.</p>
+  </div>
+</section>
+
+<section class="catalog" id="catalog">
+  <div class="container">
+    <h2>Beschikbare fietsen</h2>
+    <div class="bike-grid" id="bike-grid">
+      <!-- filled automatically from data/bikes.json -->
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">&copy; <span id="year"></span> e-bikes.gereviseerd — alle fietsen handmatig gecontroleerd en klaargemaakt</div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

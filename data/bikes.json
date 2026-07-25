@@ -1,0 +1,57 @@
+[
+  {
+    "id": "villette-hollande",
+    "name": "Villette Hollande",
+    "tagline": "Klassieke stadsfiets met een stille, krachtige motor",
+    "price": "€895",
+    "status": "Beschikbaar",
+    "cover": "images/villette-hollande/cover.jpg",
+    "gallery": [
+      "images/villette-hollande/1.jpg",
+      "images/villette-hollande/2.jpg"
+    ],
+    "specs": {
+      "Motor": "Shimano Steps, 250W",
+      "Accu": "36V / 11Ah - gereviseerd",
+      "Actieradius": "45-60 km",
+      "Remmen": "Hydraulisch",
+      "Wielmaat": "28 inch",
+      "Gewicht": "24 kg"
+    },
+    "condition": [
+      { "item": "Accu", "state": "Gereviseerd - nieuwe cellen" },
+      { "item": "Banden", "state": "Nieuw" },
+      { "item": "Remmen", "state": "Gecontroleerd en afgesteld" },
+      { "item": "Display/bediening", "state": "Origineel - uitstekende staat" }
+    ],
+    "warranty": "3 maanden garantie op motor en accu",
+    "whatsapp": "31600000000"
+  },
+  {
+    "id": "batavus-weekend-easy",
+    "name": "Batavus Weekend Easy",
+    "tagline": "Ideaal voor gezinstochtjes en ritjes door de stad",
+    "price": "€750",
+    "status": "Beschikbaar",
+    "cover": "images/batavus-weekend-easy/cover.jpg",
+    "gallery": [
+      "images/batavus-weekend-easy/1.jpg"
+    ],
+    "specs": {
+      "Motor": "Bosch Active Line, 250W",
+      "Accu": "36V / 9Ah",
+      "Actieradius": "40-50 km",
+      "Remmen": "Mechanische schijfrem",
+      "Wielmaat": "26 inch",
+      "Gewicht": "22 kg"
+    },
+    "condition": [
+      { "item": "Accu", "state": "Origineel - goede werking" },
+      { "item": "Banden", "state": "Gebruikt - goede staat" },
+      { "item": "Remmen", "state": "Remblokken vervangen" },
+      { "item": "Ketting", "state": "Nieuw" }
+    ],
+    "warranty": "2 maanden garantie op de motor",
+    "whatsapp": "31600000000"
+  }
+]
