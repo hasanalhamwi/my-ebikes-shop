@@ -6,10 +6,12 @@
     "price": "€895",
     "status": "Beschikbaar",
     "cover": "images/villette-hollande/cover.jpg",
-    "gallery": [
-      "images/villette-hollande/1.jpg",
-      "images/villette-hollande/2.jpg"
-    ],
+"gallery": [
+  "images/villette-hollande/1.jpg",
+  "images/villette-hollande/2.jpg",
+  "images/villette-hollande/3.jpg",
+  "images/villette-hollande/4.jpg"
+],
     "specs": {
       "Motor": "Shimano Steps, 250W",
       "Accu": "36V / 11Ah - gereviseerd",
