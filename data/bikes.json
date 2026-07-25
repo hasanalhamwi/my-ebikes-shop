@@ -3,30 +3,41 @@
     "id": "villette-hollande",
     "name": "Villette Hollande",
     "tagline": "Klassieke stadsfiets met een stille, krachtige motor",
-    "price": "€895",
+    "price": "€645",
     "status": "Beschikbaar",
     "cover": "images/villette-hollande/cover.jpg",
-"gallery": [
-  "images/villette-hollande/1.jpg",
-  "images/villette-hollande/2.jpg",
-  "images/villette-hollande/3.jpg",
-  "images/villette-hollande/4.jpg"
-],
+    "gallery": [
+      "images/villette-hollande/1.jpg",
+      "images/villette-hollande/2.jpg",
+      "images/villette-hollande/3.jpg",
+      "images/villette-hollande/4.jpg"
+    ],
+    "specsTitle": "Specificaties",
     "specs": {
+      "Framemaat": "53 cm",
       "Motor": "Shimano Steps, 250W",
       "Accu": "36V / 11Ah - gereviseerd",
-      "Actieradius": "45-60 km",
+      "Actieradius": "80-90 km",
+      "Versnellingen": "7-speed Shimano Nexus",
+      "Controller": "Origineel, gereviseerd",
+      "Kabels": "Nieuw",
+      "Sensoren": "Trapkrachtsensor - gecontroleerd",
+      "Ondersteuningsstanden": "4 standen (Eco, Normaal, Hoog, Turbo)",
+      "Display": "Origineel, volledig werkend",
       "Remmen": "Hydraulisch",
       "Wielmaat": "28 inch",
       "Gewicht": "24 kg"
     },
+    "conditionTitle": "Vernieuwd aan deze fiets",
     "condition": [
+      { "item": "Motor", "state": "Vernieuwd" },
       { "item": "Accu", "state": "Gereviseerd - nieuwe cellen" },
       { "item": "Banden", "state": "Nieuw" },
       { "item": "Remmen", "state": "Gecontroleerd en afgesteld" },
-      { "item": "Display/bediening", "state": "Origineel - uitstekende staat" }
+      { "item": "Display/bediening", "state": "Origineel - uitstekende staat" },
+      { "item": "Lader", "state": "Inbegrepen - origineel" }
     ],
-    "warranty": "3 maanden garantie op motor en accu",
+    "warranty": "3 maanden garantie op de elektrische groep (motor, accu, controller, display)",
     "whatsapp": "31600000000"
   },
   {
@@ -37,27 +48,38 @@
     "status": "Beschikbaar",
     "cover": "images/batavus-weekend-easy/cover.jpg",
     "gallery": [
-  "images/batavus-weekend-easy/1.jpg",
-  "images/batavus-weekend-easy/2.jpg",
-  "images/batavus-weekend-easy/3.jpg",
-  "images/batavus-weekend-easy/4.jpg",
-  "images/batavus-weekend-easy/5.jpg"
-],
+      "images/batavus-weekend-easy/1.jpg",
+      "images/batavus-weekend-easy/2.jpg",
+      "images/batavus-weekend-easy/3.jpg",
+      "images/batavus-weekend-easy/4.jpg",
+      "images/batavus-weekend-easy/5.jpg"
+    ],
+    "specsTitle": "Specificaties",
     "specs": {
+      "Framemaat": "50 cm",
       "Motor": "Bosch Active Line, 250W",
       "Accu": "36V / 9Ah",
       "Actieradius": "40-50 km",
+      "Versnellingen": "8-speed Shimano Nexus",
+      "Controller": "Bosch, origineel",
+      "Kabels": "Gecontroleerd - goede staat",
+      "Sensoren": "Snelheidssensor - werkend",
+      "Ondersteuningsstanden": "3 standen (Eco, Normaal, Sport)",
+      "Display": "Bosch Purion, origineel",
       "Remmen": "Mechanische schijfrem",
       "Wielmaat": "26 inch",
       "Gewicht": "22 kg"
     },
+    "conditionTitle": "Vernieuwd aan deze fiets",
     "condition": [
+      { "item": "Motor", "state": "Vernieuwd" },
       { "item": "Accu", "state": "Origineel - goede werking" },
       { "item": "Banden", "state": "Gebruikt - goede staat" },
       { "item": "Remmen", "state": "Remblokken vervangen" },
-      { "item": "Ketting", "state": "Nieuw" }
+      { "item": "Ketting", "state": "Nieuw" },
+      { "item": "Lader", "state": "Inbegrepen - origineel" }
     ],
-    "warranty": "2 maanden garantie op de motor",
+    "warranty": "2 maanden garantie op de elektrische groep (motor, accu, controller, display)",
     "whatsapp": "31600000000"
   }
 ]
