@@ -48,12 +48,12 @@ function renderBike(bike) {
         <div class="price">${bike.price}</div>
 
         <div class="spec-tag">
-          <h4>Technische specificaties</h4>
+          <h4>${bike.specsTitle || 'Technische specificaties'}</h4>
           ${specsRows}
         </div>
 
         <div class="spec-tag">
-          <h4>Staat van de onderdelen — nieuw / gebruikt</h4>
+          <h4>${bike.conditionTitle || 'Vernieuwd aan deze fiets'}</h4>
           <ul class="condition-list">${conditionRows}</ul>
         </div>
 
@@ -79,6 +79,11 @@ function setupGallery(bike) {
     <div class="slider-slide"><img src="${src}" alt="${bike.name}" onerror="this.closest('.slider-slide').style.background='var(--color-bg-elevated)'"></div>
   `).join('');
   slider.appendChild(track);
+
+  // Clicking any slide image opens the fullscreen lightbox
+  track.querySelectorAll('img').forEach((img, i) => {
+    img.addEventListener('click', () => openLightbox(i));
+  });
 
   // Only add arrows and dots when there is more than one image
   if (images.length > 1) {
@@ -118,4 +123,55 @@ function setupGallery(bike) {
       if (Math.abs(diff) > 40) goTo(diff > 0 ? current - 1 : current + 1);
     }, { passive: true });
   }
+
+  // ---- Fullscreen lightbox (enlarge photo on click) ----
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+  const lightboxClose = document.getElementById('lightbox-close');
+  const lightboxPrev = document.getElementById('lightbox-prev');
+  const lightboxNext = document.getElementById('lightbox-next');
+  let lightboxIndex = 0;
+  const hasMultiple = images.length > 1;
+
+  lightboxPrev.style.display = hasMultiple ? '' : 'none';
+  lightboxNext.style.display = hasMultiple ? '' : 'none';
+
+  function openLightbox(index) {
+    lightboxIndex = index;
+    lightboxImg.src = images[lightboxIndex];
+    lightboxImg.alt = bike.name;
+    lightbox.hidden = false;
+  }
+
+  function closeLightbox() { lightbox.hidden = true; }
+
+  function showLightbox(index) {
+    lightboxIndex = (index + images.length) % images.length;
+    lightboxImg.src = images[lightboxIndex];
+  }
+
+  lightboxClose.addEventListener('click', closeLightbox);
+  lightboxPrev.addEventListener('click', () => showLightbox(lightboxIndex - 1));
+  lightboxNext.addEventListener('click', () => showLightbox(lightboxIndex + 1));
+
+  // Close when clicking the dark background, but not the image itself
+  lightbox.addEventListener('click', e => {
+    if (e.target === lightbox) closeLightbox();
+  });
+
+  // Keyboard support: Escape closes, arrow keys navigate
+  document.addEventListener('keydown', e => {
+    if (lightbox.hidden) return;
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') showLightbox(lightboxIndex - 1);
+    if (e.key === 'ArrowRight') showLightbox(lightboxIndex + 1);
+  });
+
+  // Swipe support inside the lightbox on mobile
+  let lightboxStartX = 0;
+  lightbox.addEventListener('touchstart', e => { lightboxStartX = e.touches[0].clientX; }, { passive: true });
+  lightbox.addEventListener('touchend', e => {
+    const diff = e.changedTouches[0].clientX - lightboxStartX;
+    if (Math.abs(diff) > 40) showLightbox(diff > 0 ? lightboxIndex - 1 : lightboxIndex + 1);
+  }, { passive: true });
 }
