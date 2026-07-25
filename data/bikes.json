@@ -35,8 +35,12 @@
     "status": "Beschikbaar",
     "cover": "images/batavus-weekend-easy/cover.jpg",
     "gallery": [
-      "images/batavus-weekend-easy/1.jpg"
-    ],
+  "images/batavus-weekend-easy/1.jpg",
+  "images/batavus-weekend-easy/2.jpg",
+  "images/batavus-weekend-easy/3.jpg",
+  "images/batavus-weekend-easy/4.jpg",
+  "images/batavus-weekend-easy/5.jpg"
+],
     "specs": {
       "Motor": "Bosch Active Line, 250W",
       "Accu": "36V / 9Ah",
