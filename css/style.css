@@ -235,7 +235,9 @@ img { max-width: 100%; display: block; }
   .detail-grid { grid-template-columns: 1fr; }
 }
 
-.detail-gallery .main-image {
+/* Image slider — the signature gallery element for each bike */
+.slider {
+  position: relative;
   border-radius: var(--radius);
   overflow: hidden;
   border: 1px solid var(--color-border);
@@ -243,22 +245,63 @@ img { max-width: 100%; display: block; }
   background: var(--color-bg-elevated);
 }
 
-.detail-gallery .main-image img { width: 100%; height: 100%; object-fit: cover; }
-
-.thumb-row {
+.slider-track {
   display: flex;
-  gap: 10px;
-  margin-top: 10px;
+  height: 100%;
+  transition: transform .35s ease;
 }
 
-.thumb-row img {
-  width: 72px;
-  height: 54px;
-  object-fit: cover;
-  border-radius: var(--radius);
-  border: 1px solid var(--color-border);
+.slider-slide {
+  min-width: 100%;
+  height: 100%;
+}
+
+.slider-slide img { width: 100%; height: 100%; object-fit: cover; }
+
+.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(10, 16, 13, 0.55);
+  color: var(--color-text);
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background .15s ease;
+}
+
+.slider-btn:hover { background: var(--color-accent); color: #191008; }
+
+.slider-btn.prev { left: 12px; }
+.slider-btn.next { right: 12px; }
+
+.slider-dots {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 7px;
+}
+
+.slider-dots .dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(242, 237, 226, 0.35);
+  border: none;
+  padding: 0;
   cursor: pointer;
 }
+
+.slider-dots .dot.active { background: var(--color-accent); }
 
 .detail-info h1 {
   font-family: var(--font-display);
