@@ -1,5 +1,42 @@
 [
   {
+  "id": "gazelle-medeo-x-tra-innergy",
+  "name": "Gazelle Medeo X-tra Innergy",
+  "tagline": "Rijklaar en in uitstekende staat, met een volledig vernieuwde elektrische aandrijving",
+  "price": "€___",
+  "status": "Beschikbaar",
+  "cover": "images/gazelle-medeo-x-tra-innergy/cover.jpg",
+  "gallery": [
+    "images/gazelle-medeo-x-tra-innergy/1.jpg",
+    "images/gazelle-medeo-x-tra-innergy/2.jpg",
+    "images/gazelle-medeo-x-tra-innergy/3.jpg",
+    "images/gazelle-medeo-x-tra-innergy/4.jpg",
+    "images/gazelle-medeo-x-tra-innergy/5.jpg",
+    "images/gazelle-medeo-x-tra-innergy/6.jpg",
+    "images/gazelle-medeo-x-tra-innergy/7.jpg",
+    "images/gazelle-medeo-x-tra-innergy/8.jpg"
+  ],
+  "specsTitle": "Specificaties",
+  "specs": {
+    "Framemaat": "48 cm",
+    "Frame": "Damesframe - licht en stevig aluminium",
+    "Motor": "Naafmotor in het voorwiel",
+    "Versnellingen": "Shimano Alivio/Deore derailleur",
+    "Ondersteuningsstanden": "Meerdere standen",
+    "Display": "Snelheid, ondersteuningsniveau en kilometerstand",
+    "Actieradius": "Circa 80-100 km per lading",
+    "Verlichting": "Voor- en achterlicht, aanwezig en functioneel"
+  },
+  "conditionTitle": "Vernieuwd aan deze fiets",
+  "condition": [
+    { "item": "Motor", "state": "Vernieuwd" },
+    { "item": "Elektrische aandrijving", "state": "Volledig gereviseerd" },
+    { "item": "Lader", "state": "Inbegrepen" }
+  ],
+  "warranty": "6 maanden garantie op de elektrische groep",
+  "whatsapp": "31600000000"
+},
+  {
     "id": "villette-hollande",
     "name": "Villette Hollande",
     "tagline": "Klassieke stadsfiets met een stille, krachtige motor",
