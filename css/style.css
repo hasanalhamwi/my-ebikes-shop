@@ -74,6 +74,11 @@ img { max-width: 100%; display: block; }
 
 .brand span { color: var(--color-accent); }
 
+@media (max-width: 480px) {
+  .brand { font-size: 18px; gap: 8px; }
+  .brand-logo { width: 40px; height: 40px; }
+}
+
 .site-header nav a {
   color: var(--color-text-muted);
   font-size: 15px;
