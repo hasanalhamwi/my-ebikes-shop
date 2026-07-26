@@ -7,12 +7,13 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/svg+xml" href="images/logo.svg">
 </head>
 <body>
 
 <header class="site-header">
   <div class="container">
-    <a href="index.html" class="brand">e-bikes<span>.gereviseerd</span></a>
+    <a href="index.html" class="brand"><img src="images/logo.svg" alt="Logo" class="brand-logo">e-bikes<span>.gereviseerd</span></a>
     <nav>
       <a href="index.html">Alle fietsen</a>
     </nav>
@@ -37,7 +38,23 @@
 </section>
 
 <footer class="site-footer">
-  <div class="container">&copy; <span id="year"></span> e-bikes.gereviseerd — alle fietsen handmatig gecontroleerd en klaargemaakt</div>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-company">
+        <h4>Bedrijfsgegevens</h4>
+        <p class="company-name">HandigCom Trading &amp; Services</p>
+        <p>Inkopen, verkopen en reparatie en onderhoud van tweedehands goederen.</p>
+        <p>KVK-nummer: 99487012 · Vestigingsnummer: 000064555100</p>
+        <p>De Savornin Lohmanstraat 8, 9801KG Zuidhorn</p>
+      </div>
+      <div class="footer-delivery">
+        <h4>Bezorging</h4>
+        <p>Wij bezorgen jouw fiets graag bij je thuis, in heel Nederland.</p>
+        <p>Bezorgkosten: € 0,23 per kilometer.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">&copy; <span id="year"></span> e-bikes.gereviseerd — alle fietsen handmatig gecontroleerd en klaargemaakt</div>
+  </div>
 </footer>
 
 <script src="js/bike.js"></script>
