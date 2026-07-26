@@ -100,7 +100,7 @@ img { max-width: 100%; display: block; }
 
 @media (max-width: 800px) {
   .hero .container { grid-template-columns: 1fr; }
-  .hero-media { order: -1; }
+  .hero-media { display: none; }
 }
 
 .hero-eyebrow {
