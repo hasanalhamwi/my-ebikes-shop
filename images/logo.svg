@@ -2,23 +2,30 @@
   <!-- Background badge -->
   <circle cx="100" cy="100" r="96" fill="#16211d" stroke="#d98e2b" stroke-width="4"/>
 
-  <!-- Wheel rim -->
-  <circle cx="100" cy="100" r="64" fill="none" stroke="#f2ede2" stroke-width="5"/>
+  <!-- Wheels -->
+  <circle cx="58" cy="146" r="30" fill="none" stroke="#f2ede2" stroke-width="5"/>
+  <circle cx="142" cy="146" r="30" fill="none" stroke="#f2ede2" stroke-width="5"/>
+  <circle cx="58" cy="146" r="4" fill="#f2ede2"/>
+  <circle cx="142" cy="146" r="4" fill="#f2ede2"/>
 
-  <!-- Hub -->
-  <circle cx="100" cy="100" r="9" fill="#f2ede2"/>
-
-  <!-- Spokes -->
-  <g stroke="#f2ede2" stroke-width="3" stroke-linecap="round">
-    <line x1="100" y1="100" x2="100" y2="38"/>
-    <line x1="100" y1="100" x2="154" y2="69"/>
-    <line x1="100" y1="100" x2="154" y2="131"/>
-    <line x1="100" y1="100" x2="100" y2="162"/>
-    <line x1="100" y1="100" x2="46" y2="131"/>
-    <line x1="100" y1="100" x2="46" y2="69"/>
+  <!-- Frame -->
+  <g stroke="#f2ede2" stroke-width="6" stroke-linecap="round" fill="none">
+    <line x1="58" y1="146" x2="96" y2="146"/>   <!-- chainstay -->
+    <line x1="96" y1="146" x2="72" y2="84"/>    <!-- seat tube -->
+    <line x1="58" y1="146" x2="72" y2="84"/>    <!-- seat stay -->
+    <line x1="72" y1="84" x2="136" y2="80"/>    <!-- top tube -->
+    <line x1="136" y1="80" x2="142" y2="146"/>  <!-- fork -->
   </g>
 
-  <!-- Lightning bolt (electric accent), overlaid in brand amber -->
-  <polygon points="112,44 78,108 98,108 88,158 132,90 110,90"
-           fill="#d98e2b" stroke="#16211d" stroke-width="3"/>
+  <!-- Down tube / motor area highlighted in brand amber, like an e-bike battery -->
+  <line x1="96" y1="146" x2="136" y2="80" stroke="#d98e2b" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Seat -->
+  <line x1="63" y1="82" x2="81" y2="79" stroke="#f2ede2" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Handlebar -->
+  <line x1="127" y1="72" x2="145" y2="68" stroke="#f2ede2" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Pedal crank -->
+  <circle cx="96" cy="146" r="6" fill="none" stroke="#f2ede2" stroke-width="3"/>
 </svg>
