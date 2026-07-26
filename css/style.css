@@ -70,7 +70,7 @@ img { max-width: 100%; display: block; }
   gap: 10px;
 }
 
-.brand-logo { width: 34px; height: 34px; }
+.brand-logo { width: 68px; height: 68px; }
 
 .brand span { color: var(--color-accent); }
 
