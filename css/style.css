@@ -100,15 +100,17 @@ img { max-width: 100%; display: block; }
 
 @media (max-width: 800px) {
   .hero .container { grid-template-columns: 1fr; }
+  .hero-media { order: -1; }
 }
 
 .hero-eyebrow {
-  font-family: var(--font-mono);
-  font-size: 13px;
-  letter-spacing: 2px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 1px;
   color: var(--color-accent);
   text-transform: uppercase;
-  margin-bottom: 14px;
+  margin-bottom: 16px;
 }
 
 .hero h1 {
