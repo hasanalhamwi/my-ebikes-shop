@@ -1,42 +1,5 @@
 [
   {
-  "id": "gazelle-medeo-x-tra-innergy",
-  "name": "Gazelle Medeo X-tra Innergy",
-  "tagline": "Rijklaar en in uitstekende staat, met een volledig vernieuwde elektrische aandrijving",
-  "price": "€735",
-  "status": "Beschikbaar/reseereved",
-  "cover": "images/gazelle-medeo-x-tra-innergy/cover.jpg",
-  "gallery": [
-    "images/gazelle-medeo-x-tra-innergy/1.jpg",
-    "images/gazelle-medeo-x-tra-innergy/2.jpg",
-    "images/gazelle-medeo-x-tra-innergy/3.jpg",
-    "images/gazelle-medeo-x-tra-innergy/4.jpg",
-    "images/gazelle-medeo-x-tra-innergy/5.jpg",
-    "images/gazelle-medeo-x-tra-innergy/6.jpg",
-    "images/gazelle-medeo-x-tra-innergy/7.jpg",
-    "images/gazelle-medeo-x-tra-innergy/8.jpg"
-  ],
-  "specsTitle": "Specificaties",
-  "specs": {
-    "Framemaat": "48 cm",
-    "Frame": "Damesframe - licht en stevig aluminium",
-    "Motor": "Naafmotor in het voorwiel",
-    "Versnellingen": "Shimano Alivio/Deore derailleur",
-    "Ondersteuningsstanden": "Meerdere standen",
-    "Display": "Snelheid, ondersteuningsniveau en kilometerstand",
-    "Actieradius": "Circa 80-100 km per lading",
-    "Verlichting": "Voor- en achterlicht, aanwezig en functioneel"
-  },
-  "conditionTitle": "Vernieuwd aan deze fiets",
-  "condition": [
-    { "item": "Motor", "state": "Vernieuwd" },
-    { "item": "Elektrische aandrijving", "state": "Volledig gereviseerd" },
-    { "item": "Lader", "state": "Inbegrepen" }
-  ],
-  "warranty": "6 maanden garantie op de elektrische groep",
-  "whatsapp": "31600000000"
-},
-  {
     "id": "villette-hollande",
     "name": "Villette Hollande",
     "tagline": "Klassieke stadsfiets met een stille, krachtige motor",
@@ -61,20 +24,16 @@
       "Sensoren": "Trapkrachtsensor - gecontroleerd",
       "Ondersteuningsstanden": "4 standen (Eco, Normaal, Hoog, Turbo)",
       "Display": "Origineel, volledig werkend",
-      "Remmen": "Hydraulisch",
-      "Wielmaat": "28 inch",
-      "Gewicht": "24 kg"
+      "Wielmaat": "28 inch"
     },
-    "conditionTitle": "Vernieuwd aan deze fiets",
+    "conditionTitle": "Elektrische onderdelen &amp; garantie",
     "condition": [
-      { "item": "Motor", "state": "Vernieuwd" },
-      { "item": "Accu", "state": "Gereviseerd - nieuwe cellen" },
-      { "item": "Banden", "state": "Nieuw" },
-      { "item": "Remmen", "state": "Gecontroleerd en afgesteld" },
-      { "item": "Display/bediening", "state": "Origineel - uitstekende staat" },
-      { "item": "Lader", "state": "Inbegrepen - origineel" }
+      { "item": "Motor", "state": "3 maanden" },
+      { "item": "Accu", "state": "3 maanden" },
+      { "item": "Controller", "state": "3 maanden" },
+      { "item": "Display", "state": "3 maanden" },
+      { "item": "Lader", "state": "3 maanden" }
     ],
-    "warranty": "3 maanden garantie op de elektrische groep (motor, accu, controller, display)",
     "whatsapp": "31600000000"
   },
   {
@@ -83,7 +42,7 @@
     "tagline": "Ideaal voor gezinstochtjes en ritjes door de stad",
     "price": "€750",
     "status": "Beschikbaar",
-    "cover": "images/batavus-weekend-easy/cover.webp",
+    "cover": "images/batavus-weekend-easy/cover.jpg",
     "gallery": [
       "images/batavus-weekend-easy/1.jpg",
       "images/batavus-weekend-easy/2.jpg",
@@ -103,20 +62,16 @@
       "Sensoren": "Snelheidssensor - werkend",
       "Ondersteuningsstanden": "3 standen (Eco, Normaal, Sport)",
       "Display": "Bosch Purion, origineel",
-      "Remmen": "Mechanische schijfrem",
-      "Wielmaat": "26 inch",
-      "Gewicht": "22 kg"
+      "Wielmaat": "26 inch"
     },
-    "conditionTitle": "Vernieuwd aan deze fiets",
+    "conditionTitle": "Elektrische onderdelen &amp; garantie",
     "condition": [
-      { "item": "Motor", "state": "Vernieuwd" },
-      { "item": "Accu", "state": "Origineel - goede werking" },
-      { "item": "Banden", "state": "Gebruikt - goede staat" },
-      { "item": "Remmen", "state": "Remblokken vervangen" },
-      { "item": "Ketting", "state": "Nieuw" },
-      { "item": "Lader", "state": "Inbegrepen - origineel" }
+      { "item": "Motor", "state": "2 maanden" },
+      { "item": "Accu", "state": "2 maanden" },
+      { "item": "Controller", "state": "2 maanden" },
+      { "item": "Display", "state": "2 maanden" },
+      { "item": "Lader", "state": "2 maanden" }
     ],
-    "warranty": "2 maanden garantie op de elektrische groep (motor, accu, controller, display)",
     "whatsapp": "31600000000"
   }
 ]
