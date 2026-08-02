@@ -73,5 +73,88 @@
       { "item": "Lader", "state": "2 maanden" }
     ],
     "whatsapp": "31600000000"
+  },
+  {
+    "id": "sparta-f7-e",
+    "name": "TODO: invullen",
+    "tagline": "TODO: invullen",
+    "price": "TODO: invullen",
+    "status": "Beschikbaar",
+    "cover": "images/sparta-f7-e/cover.jpg",
+    "gallery": [
+      "images/sparta-f7-e/1.jpg",
+      "images/sparta-f7-e/2.jpg",
+      "images/sparta-f7-e/3.jpg",
+      "images/sparta-f7-e/4.jpg",
+      "images/sparta-f7-e/5.jpg",
+      "images/sparta-f7-e/6.jpg",
+      "images/sparta-f7-e/7.jpg",
+      "images/sparta-f7-e/8.jpg",
+      "images/sparta-f7-e/9.jpg"
+    ],
+    "specsTitle": "Specificaties",
+    "specs": {
+      "Framemaat": "TODO: invullen",
+      "Motor": "TODO: invullen",
+      "Accu": "TODO: invullen",
+      "Actieradius": "TODO: invullen",
+      "Versnellingen": "TODO: invullen",
+      "Controller": "TODO: invullen",
+      "Kabels": "TODO: invullen",
+      "Sensoren": "TODO: invullen",
+      "Ondersteuningsstanden": "TODO: invullen",
+      "Display": "TODO: invullen",
+      "Wielmaat": "TODO: invullen"
+    },
+    "conditionTitle": "Elektrische onderdelen &amp; garantie",
+    "condition": [
+      { "item": "Motor", "state": "TODO: invullen" },
+      { "item": "Accu", "state": "TODO: invullen" },
+      { "item": "Controller", "state": "TODO: invullen" },
+      { "item": "Display", "state": "TODO: invullen" },
+      { "item": "Lader", "state": "TODO: invullen" }
+    ],
+    "whatsapp": "31600000000"
+  },
+  {
+    "id": "sparta-f8-e-limited-series",
+    "name": "TODO: invullen",
+    "tagline": "TODO: invullen",
+    "price": "TODO: invullen",
+    "status": "Beschikbaar",
+    "cover": "images/sparta-f8-e-limited-series/cover.jpg",
+    "gallery": [
+      "images/sparta-f8-e-limited-series/1.jpg",
+      "images/sparta-f8-e-limited-series/2.jpg",
+      "images/sparta-f8-e-limited-series/3.jpg",
+      "images/sparta-f8-e-limited-series/4.jpg",
+      "images/sparta-f8-e-limited-series/5.jpg",
+      "images/sparta-f8-e-limited-series/6.jpg",
+      "images/sparta-f8-e-limited-series/7.jpg",
+      "images/sparta-f8-e-limited-series/8.jpg"
+    ],
+    "specsTitle": "Specificaties",
+    "specs": {
+      "Framemaat": "TODO: invullen",
+      "Motor": "TODO: invullen",
+      "Accu": "TODO: invullen",
+      "Actieradius": "TODO: invullen",
+      "Versnellingen": "TODO: invullen",
+      "Controller": "TODO: invullen",
+      "Kabels": "TODO: invullen",
+      "Sensoren": "TODO: invullen",
+      "Ondersteuningsstanden": "TODO: invullen",
+      "Display": "TODO: invullen",
+      "Wielmaat": "TODO: invullen"
+    },
+    "conditionTitle": "Elektrische onderdelen &amp; garantie",
+    "condition": [
+      { "item": "Motor", "state": "TODO: invullen" },
+      { "item": "Accu", "state": "TODO: invullen" },
+      { "item": "Controller", "state": "TODO: invullen" },
+      { "item": "Display", "state": "TODO: invullen" },
+      { "item": "Lader", "state": "TODO: invullen" }
+    ],
+    "whatsapp": "31600000000"
   }
 ]
