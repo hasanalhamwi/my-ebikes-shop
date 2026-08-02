@@ -466,6 +466,19 @@ img { max-width: 100%; display: block; }
 .spec-row .label { color: var(--color-text-muted); }
 .spec-row .value { font-family: var(--font-mono); }
 
+.condition-header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid var(--color-border);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
 .condition-list { list-style: none; padding: 0; margin: 0; }
 
 .condition-list li {
@@ -477,17 +490,6 @@ img { max-width: 100%; display: block; }
 }
 
 .condition-list li:last-child { border-bottom: none; }
-
-.warranty-note {
-  font-size: 14px;
-  color: var(--color-text-muted);
-  background: var(--color-bg-elevated);
-  border-radius: var(--radius);
-  padding: 14px 16px;
-  margin-bottom: 24px;
-}
-
-.warranty-note strong { color: var(--color-accent); }
 
 .cta-row { display: flex; gap: 12px; flex-wrap: wrap; }
 .cta-row .btn { font-size: 16px; padding: 13px 22px; }
