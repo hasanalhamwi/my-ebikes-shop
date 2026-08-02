@@ -53,11 +53,13 @@ function renderBike(bike) {
         </div>
 
         <div class="spec-tag">
-          <h4>${bike.conditionTitle || 'Vernieuwd aan deze fiets'}</h4>
+          <h4>${bike.conditionTitle || 'Elektrische onderdelen &amp; garantie'}</h4>
+          <div class="condition-header">
+            <span>${bike.conditionCol1 || 'Elektrisch onderdeel'}</span>
+            <span>${bike.conditionCol2 || 'Garantie'}</span>
+          </div>
           <ul class="condition-list">${conditionRows}</ul>
         </div>
-
-        <div class="warranty-note"><strong>Garantie:</strong> ${bike.warranty}</div>
 
         <div class="cta-row">
           <a class="btn btn-whatsapp" href="${waLink}" target="_blank" rel="noopener">Contact via WhatsApp</a>
