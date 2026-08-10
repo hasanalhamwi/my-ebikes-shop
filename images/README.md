@@ -8,31 +8,23 @@ images/villette-hollande/1.jpg
 images/villette-hollande/2.jpg
 ```
 
-Nieuwe fiets toevoegen:
-1. Maak hier een nieuwe map aan met dezelfde naam als het "id" van de fiets in bikes.json.
-2. Upload een hoofdfoto met de naam cover.webp (of cover.jpg), en eventueel extra foto's met een naam naar keuze.
-3. Zet dezelfde bestandsnamen in de velden "cover" en "gallery" in data/bikes.json.
-
 ## Aanbevolen bestandsformaat: WEBP
 
-Vanaf nu gebruiken we bij voorkeur **.webp** in plaats van .jpg voor alle nieuwe foto's (cover-foto's en slider-foto's), omdat WEBP aanzienlijk kleiner is in bestandsgrootte bij gelijke kwaliteit — dat betekent een sneller ladende website. Voorbeeld voor een nieuwe fiets:
+Gebruik bij voorkeur .webp in plaats van .jpg voor nieuwe foto's (kleiner bestand, snellere website).
+De code werkt met elk formaat (.jpg, .png, .webp) — je moet alleen de bestandsnaam in bikes.json
+exact laten overeenkomen met de geuploade afbeelding.
 
-```
-images/nieuwe-fiets/cover.webp
-images/nieuwe-fiets/1.webp
-images/nieuwe-fiets/2.webp
-```
+## Belangrijk: 9 fietsen hebben nu placeholder-foto's in bikes.json
 
-En in data/bikes.json:
-```json
-"cover": "images/nieuwe-fiets/cover.webp",
-"gallery": [
-  "images/nieuwe-fiets/1.webp",
-  "images/nieuwe-fiets/2.webp"
-]
-```
+Voor deze fietsen staat in data/bikes.json een geschat aantal foto's (1.jpg, 2.jpg, 3.jpg):
+altera, amslod-hamilton-sx, colorado-arrow, gazelle-medeo-x-tra-innergy,
+sparta-e-motion-c2, stella-albatros, stella-vicenza.
 
-De code werkt met elk bestandsformaat (.jpg, .png, .webp) zonder enige aanpassing — je hoeft alleen de bestandsnaam in bikes.json exact te laten overeenkomen met de geüploade afbeelding. Bestaande fietsen met .jpg-foto's hoeven niet aangepast te worden; alleen nieuwe foto's gebruiken voortaan .webp.
+Voor sparta-f7-e staat 9 foto's (1.jpg t/m 9.jpg) en voor sparta-f8-e-limited-series 8 foto's
+(1.jpg t/m 8.jpg), gebaseerd op het aantal bestanden dat al in de lokale mappen stond.
+
+**Controleer na het uploaden altijd of het aantal foto's in de map overeenkomt met het aantal
+in het "gallery"-veld van die fiets in bikes.json — voeg regels toe of verwijder ze indien nodig.**
 
 ## Hero-foto (bovenaan de homepage)
 
@@ -40,9 +32,6 @@ De code werkt met elk bestandsformaat (.jpg, .png, .webp) zonder enige aanpassin
 images/hero.webp
 ```
 
-Gebruik bij voorkeur een foto met een liggend (landscap) formaat, minimaal 1000 pixels breed.
-Tip: gebruik een van je eigen fietsfoto's in plaats van een foto van internet — dat is altijd auteursrechtelijk veilig en oogt persoonlijker.
-
 ## Logo
 
-`images/logo.svg` is het logo dat nu in de header en als favicon wordt gebruikt.
+`images/logo.svg` — logo in de header en als favicon.
