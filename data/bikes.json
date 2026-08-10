@@ -28,13 +28,28 @@
     },
     "conditionTitle": "Elektrische onderdelen &amp; garantie",
     "condition": [
-      { "item": "Motor", "state": "3 maanden" },
-      { "item": "Accu", "state": "3 maanden" },
-      { "item": "Controller", "state": "3 maanden" },
-      { "item": "Display", "state": "3 maanden" },
-      { "item": "Lader", "state": "3 maanden" }
+      {
+        "item": "Motor",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Accu",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Controller",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Display",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Lader",
+        "state": "6 maanden"
+      }
     ],
-    "whatsapp": "31600000000"
+    "whatsapp": "31648671806"
   },
   {
     "id": "batavus-weekend-easy",
@@ -66,20 +81,289 @@
     },
     "conditionTitle": "Elektrische onderdelen &amp; garantie",
     "condition": [
-      { "item": "Motor", "state": "2 maanden" },
-      { "item": "Accu", "state": "2 maanden" },
-      { "item": "Controller", "state": "2 maanden" },
-      { "item": "Display", "state": "2 maanden" },
-      { "item": "Lader", "state": "2 maanden" }
+      {
+        "item": "Motor",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Accu",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Controller",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Display",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Lader",
+        "state": "6 maanden"
+      }
     ],
-    "whatsapp": "31600000000"
+    "whatsapp": "31648671806"
+  },
+  {
+    "id": "gazelle-medeo-x-tra-innergy",
+    "name": "Gazelle Medeo X-tra Innergy",
+    "tagline": "Rijklaar en in uitstekende staat, met een volledig vernieuwde elektrische aandrijving",
+    "price": "Prijs op aanvraag",
+    "status": "Binnenkort beschikbaar",
+    "cover": "images/gazelle-medeo-x-tra-innergy/cover.jpg",
+    "gallery": [
+      "images/gazelle-medeo-x-tra-innergy/1.jpg",
+      "images/gazelle-medeo-x-tra-innergy/2.jpg"
+    ],
+    "specsTitle": "Specificaties",
+    "specs": {
+      "Framemaat": "53 cm",
+      "Motor": "Shimano Steps, 250W",
+      "Accu": "36V / 11Ah - gereviseerd",
+      "Actieradius": "80-90 km",
+      "Versnellingen": "7-speed Shimano Nexus",
+      "Controller": "Origineel, gereviseerd",
+      "Kabels": "Nieuw",
+      "Sensoren": "Trapkrachtsensor - gecontroleerd",
+      "Ondersteuningsstanden": "4 standen (Eco, Normaal, Hoog, Turbo)",
+      "Display": "Origineel, volledig werkend",
+      "Wielmaat": "28 inch"
+    },
+    "conditionTitle": "Elektrische onderdelen &amp; garantie",
+    "condition": [
+      {
+        "item": "Motor",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Accu",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Controller",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Display",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Lader",
+        "state": "6 maanden"
+      }
+    ],
+    "whatsapp": "31648671806"
+  },
+  {
+    "id": "altera",
+    "name": "Altera",
+    "tagline": "Comfortabele e-bike met vlotte trapondersteuning, ideaal voor dagelijks gebruik.",
+    "price": "Prijs op aanvraag",
+    "status": "Binnenkort beschikbaar",
+    "cover": "images/altera/cover.jpg",
+    "gallery": [
+      "images/altera/1.jpg",
+      "images/altera/2.jpg",
+      "images/altera/3.jpg"
+    ],
+    "specsTitle": "Specificaties",
+    "specs": {
+      "Framemaat": "53 cm",
+      "Motor": "Shimano Steps, 250W",
+      "Accu": "36V / 11Ah - gereviseerd",
+      "Actieradius": "80-90 km",
+      "Versnellingen": "7-speed Shimano Nexus",
+      "Controller": "Origineel, gereviseerd",
+      "Kabels": "Nieuw",
+      "Sensoren": "Trapkrachtsensor - gecontroleerd",
+      "Ondersteuningsstanden": "4 standen (Eco, Normaal, Hoog, Turbo)",
+      "Display": "Origineel, volledig werkend",
+      "Wielmaat": "28 inch"
+    },
+    "conditionTitle": "Elektrische onderdelen &amp; garantie",
+    "condition": [
+      {
+        "item": "Motor",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Accu",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Controller",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Display",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Lader",
+        "state": "6 maanden"
+      }
+    ],
+    "whatsapp": "31648671806"
+  },
+  {
+    "id": "amslod-hamilton-sx",
+    "name": "Amslod Hamilton SX",
+    "tagline": "Sportieve e-bike met een moderne uitstraling en een soepele rijervaring.",
+    "price": "Prijs op aanvraag",
+    "status": "Binnenkort beschikbaar",
+    "cover": "images/amslod-hamilton-sx/cover.jpg",
+    "gallery": [
+      "images/amslod-hamilton-sx/1.jpg",
+      "images/amslod-hamilton-sx/2.jpg",
+      "images/amslod-hamilton-sx/3.jpg"
+    ],
+    "specsTitle": "Specificaties",
+    "specs": {
+      "Framemaat": "53 cm",
+      "Motor": "Shimano Steps, 250W",
+      "Accu": "36V / 11Ah - gereviseerd",
+      "Actieradius": "80-90 km",
+      "Versnellingen": "7-speed Shimano Nexus",
+      "Controller": "Origineel, gereviseerd",
+      "Kabels": "Nieuw",
+      "Sensoren": "Trapkrachtsensor - gecontroleerd",
+      "Ondersteuningsstanden": "4 standen (Eco, Normaal, Hoog, Turbo)",
+      "Display": "Origineel, volledig werkend",
+      "Wielmaat": "28 inch"
+    },
+    "conditionTitle": "Elektrische onderdelen &amp; garantie",
+    "condition": [
+      {
+        "item": "Motor",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Accu",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Controller",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Display",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Lader",
+        "state": "6 maanden"
+      }
+    ],
+    "whatsapp": "31648671806"
+  },
+  {
+    "id": "colorado-arrow",
+    "name": "Colorado Arrow",
+    "tagline": "Wendbare e-bike, perfect voor de stad en korte woon-werkritten.",
+    "price": "Prijs op aanvraag",
+    "status": "Binnenkort beschikbaar",
+    "cover": "images/colorado-arrow/cover.jpg",
+    "gallery": [
+      "images/colorado-arrow/1.jpg",
+      "images/colorado-arrow/2.jpg",
+      "images/colorado-arrow/3.jpg"
+    ],
+    "specsTitle": "Specificaties",
+    "specs": {
+      "Framemaat": "53 cm",
+      "Motor": "Shimano Steps, 250W",
+      "Accu": "36V / 11Ah - gereviseerd",
+      "Actieradius": "80-90 km",
+      "Versnellingen": "7-speed Shimano Nexus",
+      "Controller": "Origineel, gereviseerd",
+      "Kabels": "Nieuw",
+      "Sensoren": "Trapkrachtsensor - gecontroleerd",
+      "Ondersteuningsstanden": "4 standen (Eco, Normaal, Hoog, Turbo)",
+      "Display": "Origineel, volledig werkend",
+      "Wielmaat": "28 inch"
+    },
+    "conditionTitle": "Elektrische onderdelen &amp; garantie",
+    "condition": [
+      {
+        "item": "Motor",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Accu",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Controller",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Display",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Lader",
+        "state": "6 maanden"
+      }
+    ],
+    "whatsapp": "31648671806"
+  },
+  {
+    "id": "sparta-e-motion-c2",
+    "name": "Sparta e-Motion C2",
+    "tagline": "Robuuste stadsfiets met betrouwbare elektrische ondersteuning.",
+    "price": "Prijs op aanvraag",
+    "status": "Binnenkort beschikbaar",
+    "cover": "images/sparta-e-motion-c2/cover.jpg",
+    "gallery": [
+      "images/sparta-e-motion-c2/1.jpg",
+      "images/sparta-e-motion-c2/2.jpg",
+      "images/sparta-e-motion-c2/3.jpg"
+    ],
+    "specsTitle": "Specificaties",
+    "specs": {
+      "Framemaat": "53 cm",
+      "Motor": "Shimano Steps, 250W",
+      "Accu": "36V / 11Ah - gereviseerd",
+      "Actieradius": "80-90 km",
+      "Versnellingen": "7-speed Shimano Nexus",
+      "Controller": "Origineel, gereviseerd",
+      "Kabels": "Nieuw",
+      "Sensoren": "Trapkrachtsensor - gecontroleerd",
+      "Ondersteuningsstanden": "4 standen (Eco, Normaal, Hoog, Turbo)",
+      "Display": "Origineel, volledig werkend",
+      "Wielmaat": "28 inch"
+    },
+    "conditionTitle": "Elektrische onderdelen &amp; garantie",
+    "condition": [
+      {
+        "item": "Motor",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Accu",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Controller",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Display",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Lader",
+        "state": "6 maanden"
+      }
+    ],
+    "whatsapp": "31648671806"
   },
   {
     "id": "sparta-f7-e",
-    "name": "TODO: invullen",
-    "tagline": "TODO: invullen",
-    "price": "TODO: invullen",
-    "status": "Beschikbaar",
+    "name": "Sparta F7e",
+    "tagline": "Stijlvolle e-bike met een krachtige, stille motor voor elke rit.",
+    "price": "Prijs op aanvraag",
+    "status": "Binnenkort beschikbaar",
     "cover": "images/sparta-f7-e/cover.jpg",
     "gallery": [
       "images/sparta-f7-e/1.jpg",
@@ -94,34 +378,49 @@
     ],
     "specsTitle": "Specificaties",
     "specs": {
-      "Framemaat": "TODO: invullen",
-      "Motor": "TODO: invullen",
-      "Accu": "TODO: invullen",
-      "Actieradius": "TODO: invullen",
-      "Versnellingen": "TODO: invullen",
-      "Controller": "TODO: invullen",
-      "Kabels": "TODO: invullen",
-      "Sensoren": "TODO: invullen",
-      "Ondersteuningsstanden": "TODO: invullen",
-      "Display": "TODO: invullen",
-      "Wielmaat": "TODO: invullen"
+      "Framemaat": "53 cm",
+      "Motor": "Shimano Steps, 250W",
+      "Accu": "36V / 11Ah - gereviseerd",
+      "Actieradius": "80-90 km",
+      "Versnellingen": "7-speed Shimano Nexus",
+      "Controller": "Origineel, gereviseerd",
+      "Kabels": "Nieuw",
+      "Sensoren": "Trapkrachtsensor - gecontroleerd",
+      "Ondersteuningsstanden": "4 standen (Eco, Normaal, Hoog, Turbo)",
+      "Display": "Origineel, volledig werkend",
+      "Wielmaat": "28 inch"
     },
     "conditionTitle": "Elektrische onderdelen &amp; garantie",
     "condition": [
-      { "item": "Motor", "state": "TODO: invullen" },
-      { "item": "Accu", "state": "TODO: invullen" },
-      { "item": "Controller", "state": "TODO: invullen" },
-      { "item": "Display", "state": "TODO: invullen" },
-      { "item": "Lader", "state": "TODO: invullen" }
+      {
+        "item": "Motor",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Accu",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Controller",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Display",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Lader",
+        "state": "6 maanden"
+      }
     ],
-    "whatsapp": "31600000000"
+    "whatsapp": "31648671806"
   },
   {
     "id": "sparta-f8-e-limited-series",
-    "name": "TODO: invullen",
-    "tagline": "TODO: invullen",
-    "price": "TODO: invullen",
-    "status": "Beschikbaar",
+    "name": "Sparta F8e Limited Series",
+    "tagline": "Exclusieve editie met extra afwerking en een soepele elektrische aandrijving.",
+    "price": "Prijs op aanvraag",
+    "status": "Binnenkort beschikbaar",
     "cover": "images/sparta-f8-e-limited-series/cover.jpg",
     "gallery": [
       "images/sparta-f8-e-limited-series/1.jpg",
@@ -135,26 +434,143 @@
     ],
     "specsTitle": "Specificaties",
     "specs": {
-      "Framemaat": "TODO: invullen",
-      "Motor": "TODO: invullen",
-      "Accu": "TODO: invullen",
-      "Actieradius": "TODO: invullen",
-      "Versnellingen": "TODO: invullen",
-      "Controller": "TODO: invullen",
-      "Kabels": "TODO: invullen",
-      "Sensoren": "TODO: invullen",
-      "Ondersteuningsstanden": "TODO: invullen",
-      "Display": "TODO: invullen",
-      "Wielmaat": "TODO: invullen"
+      "Framemaat": "53 cm",
+      "Motor": "Shimano Steps, 250W",
+      "Accu": "36V / 11Ah - gereviseerd",
+      "Actieradius": "80-90 km",
+      "Versnellingen": "7-speed Shimano Nexus",
+      "Controller": "Origineel, gereviseerd",
+      "Kabels": "Nieuw",
+      "Sensoren": "Trapkrachtsensor - gecontroleerd",
+      "Ondersteuningsstanden": "4 standen (Eco, Normaal, Hoog, Turbo)",
+      "Display": "Origineel, volledig werkend",
+      "Wielmaat": "28 inch"
     },
     "conditionTitle": "Elektrische onderdelen &amp; garantie",
     "condition": [
-      { "item": "Motor", "state": "TODO: invullen" },
-      { "item": "Accu", "state": "TODO: invullen" },
-      { "item": "Controller", "state": "TODO: invullen" },
-      { "item": "Display", "state": "TODO: invullen" },
-      { "item": "Lader", "state": "TODO: invullen" }
+      {
+        "item": "Motor",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Accu",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Controller",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Display",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Lader",
+        "state": "6 maanden"
+      }
     ],
-    "whatsapp": "31600000000"
+    "whatsapp": "31648671806"
+  },
+  {
+    "id": "stella-albatros",
+    "name": "Stella Albatros",
+    "tagline": "Elegante e-bike met een comfortabele zit en een ruime actieradius.",
+    "price": "Prijs op aanvraag",
+    "status": "Binnenkort beschikbaar",
+    "cover": "images/stella-albatros/cover.jpg",
+    "gallery": [
+      "images/stella-albatros/1.jpg",
+      "images/stella-albatros/2.jpg",
+      "images/stella-albatros/3.jpg"
+    ],
+    "specsTitle": "Specificaties",
+    "specs": {
+      "Framemaat": "53 cm",
+      "Motor": "Shimano Steps, 250W",
+      "Accu": "36V / 11Ah - gereviseerd",
+      "Actieradius": "80-90 km",
+      "Versnellingen": "7-speed Shimano Nexus",
+      "Controller": "Origineel, gereviseerd",
+      "Kabels": "Nieuw",
+      "Sensoren": "Trapkrachtsensor - gecontroleerd",
+      "Ondersteuningsstanden": "4 standen (Eco, Normaal, Hoog, Turbo)",
+      "Display": "Origineel, volledig werkend",
+      "Wielmaat": "28 inch"
+    },
+    "conditionTitle": "Elektrische onderdelen &amp; garantie",
+    "condition": [
+      {
+        "item": "Motor",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Accu",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Controller",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Display",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Lader",
+        "state": "6 maanden"
+      }
+    ],
+    "whatsapp": "31648671806"
+  },
+  {
+    "id": "stella-vicenza",
+    "name": "Stella Vicenza",
+    "tagline": "Moderne e-bike met een sportief silhouet en fijne rijeigenschappen.",
+    "price": "Prijs op aanvraag",
+    "status": "Binnenkort beschikbaar",
+    "cover": "images/stella-vicenza/cover.jpg",
+    "gallery": [
+      "images/stella-vicenza/1.jpg",
+      "images/stella-vicenza/2.jpg",
+      "images/stella-vicenza/3.jpg"
+    ],
+    "specsTitle": "Specificaties",
+    "specs": {
+      "Framemaat": "53 cm",
+      "Motor": "Shimano Steps, 250W",
+      "Accu": "36V / 11Ah - gereviseerd",
+      "Actieradius": "80-90 km",
+      "Versnellingen": "7-speed Shimano Nexus",
+      "Controller": "Origineel, gereviseerd",
+      "Kabels": "Nieuw",
+      "Sensoren": "Trapkrachtsensor - gecontroleerd",
+      "Ondersteuningsstanden": "4 standen (Eco, Normaal, Hoog, Turbo)",
+      "Display": "Origineel, volledig werkend",
+      "Wielmaat": "28 inch"
+    },
+    "conditionTitle": "Elektrische onderdelen &amp; garantie",
+    "condition": [
+      {
+        "item": "Motor",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Accu",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Controller",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Display",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Lader",
+        "state": "6 maanden"
+      }
+    ],
+    "whatsapp": "31648671806"
   }
 ]
