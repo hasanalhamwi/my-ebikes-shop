@@ -55,7 +55,7 @@
     "id": "batavus-weekend-easy",
     "name": "Batavus Weekend Easy",
     "tagline": "Ideaal voor gezinstochtjes en ritjes door de stad",
-    "price": "€750",
+    "price": "€735",
     "status": "Beschikbaar",
     "cover": "images/batavus-weekend-easy/cover.jpg",
     "gallery": [
@@ -108,7 +108,7 @@
     "id": "gazelle-medeo-x-tra-innergy",
     "name": "Gazelle Medeo X-tra Innergy",
     "tagline": "Rijklaar en in uitstekende staat, met een volledig vernieuwde elektrische aandrijving",
-    "price": "Prijs op aanvraag",
+    "price": "€750",
     "status": "Binnenkort beschikbaar",
     "cover": "images/gazelle-medeo-x-tra-innergy/cover.jpg",
     "gallery": [
@@ -164,7 +164,11 @@
     "gallery": [
       "images/altera/1.jpg",
       "images/altera/2.jpg",
-      "images/altera/3.jpg"
+      "images/altera/3.jpg",
+      "images/altera/4.jpg",
+      "images/altera/5.jpg",
+      "images/altera/6.jpg"
+      
     ],
     "specsTitle": "Specificaties",
     "specs": {
@@ -213,9 +217,13 @@
     "status": "Binnenkort beschikbaar",
     "cover": "images/amslod-hamilton-sx/cover.jpg",
     "gallery": [
-      "images/amslod-hamilton-sx/1.jpg",
-      "images/amslod-hamilton-sx/2.jpg",
-      "images/amslod-hamilton-sx/3.jpg"
+      "images/altera/1.jpg",
+      "images/altera/2.jpg",
+      "images/altera/3.jpg",
+      "images/altera/4.jpg",
+      "images/altera/5.jpg",
+      "images/altera/6.jpg"
+      
     ],
     "specsTitle": "Specificaties",
     "specs": {
@@ -264,9 +272,15 @@
     "status": "Binnenkort beschikbaar",
     "cover": "images/colorado-arrow/cover.jpg",
     "gallery": [
-      "images/colorado-arrow/1.jpg",
-      "images/colorado-arrow/2.jpg",
-      "images/colorado-arrow/3.jpg"
+      "images/altera/1.jpg",
+      "images/altera/2.jpg",
+      "images/altera/3.jpg",
+      "images/altera/4.jpg",
+      "images/altera/5.jpg",
+      "images/altera/6.jpg",
+      "images/altera/7.jpg",
+      "images/altera/8.jpg"
+      
     ],
     "specsTitle": "Specificaties",
     "specs": {
@@ -315,9 +329,13 @@
     "status": "Binnenkort beschikbaar",
     "cover": "images/sparta-e-motion-c2/cover.jpg",
     "gallery": [
-      "images/sparta-e-motion-c2/1.jpg",
-      "images/sparta-e-motion-c2/2.jpg",
-      "images/sparta-e-motion-c2/3.jpg"
+       "images/altera/1.jpg",
+      "images/altera/2.jpg",
+      "images/altera/3.jpg",
+      "images/altera/4.jpg",
+      "images/altera/5.jpg",
+      "images/altera/6.jpg",
+      "images/altera/7.jpg"
     ],
     "specsTitle": "Specificaties",
     "specs": {
@@ -479,9 +497,13 @@
     "status": "Binnenkort beschikbaar",
     "cover": "images/stella-albatros/cover.jpg",
     "gallery": [
-      "images/stella-albatros/1.jpg",
-      "images/stella-albatros/2.jpg",
-      "images/stella-albatros/3.jpg"
+       "images/altera/1.jpg",
+      "images/altera/2.jpg",
+      "images/altera/3.jpg",
+      "images/altera/4.jpg",
+      "images/altera/5.jpg",
+      "images/altera/6.jpg"
+      
     ],
     "specsTitle": "Specificaties",
     "specs": {
@@ -530,9 +552,13 @@
     "status": "Binnenkort beschikbaar",
     "cover": "images/stella-vicenza/cover.jpg",
     "gallery": [
-      "images/stella-vicenza/1.jpg",
-      "images/stella-vicenza/2.jpg",
-      "images/stella-vicenza/3.jpg"
+       "images/altera/1.jpg",
+      "images/altera/2.jpg",
+      "images/altera/3.jpg",
+      "images/altera/4.jpg",
+      "images/altera/5.jpg",
+      "images/altera/6.jpg"
+     
     ],
     "specsTitle": "Specificaties",
     "specs": {
