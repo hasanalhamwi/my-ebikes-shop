@@ -501,7 +501,7 @@ img { max-width: 100%; display: block; }
 .footer-company h4,
 .footer-delivery h4 {
   font-family: var(--font-mono);
-  font-size: 11px;
+  font-size: 20px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: var(--color-accent);
