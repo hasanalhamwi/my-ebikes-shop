@@ -291,6 +291,7 @@ img { max-width: 100%; display: block; }
 
 @media (max-width: 700px) {
   .slider { aspect-ratio: auto; height: 70vh; }
+  .slider-slide img { object-fit: contain; }
 }
 
 .slider-track {
