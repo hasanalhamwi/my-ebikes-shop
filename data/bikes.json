@@ -562,8 +562,8 @@
   {
     "id": "stella-vicenza",
     "name": "Stella Vicenza",
-    "tagline": "Moderne e-bike met een sportief silhouet en fijne rijeigenschappen.",
-    "price": "€550",
+    "tagline": "Comfortabele en mooie e-bike, geschikt voor dagelijks gebruik.",
+    "price": "€485",
     "status": "Binnenkort beschikbaar",
     "cover": "images/stella-vicenza/cover.jpg",
     "gallery": [
@@ -578,14 +578,14 @@
     "specsTitle": "Specificaties",
     "specs": {
       "Framemaat": "53 cm",
-      "Motor": "gebruikte Stella Vicenza",
-      "Accu": "Nieuw, 36V / 13Ah / 466Wh",
+      "Motor": "Nieuw",
+      "Accu": "gebruikte ",
       "Oplader": "Nieuw, output 42.0V / 2.0A",
-      "Actieradius": "80-100 km",
+      "Actieradius": "70-80 km",
       "Versnellingen": "7-speed Shimano Nexus",
-      "Controller": "gebruikte Stella Vicenza",
-      "Kabels": "gebruikte Stella Vicenza",
-      "Sensoren": "gebruikte Stella Vicenza",
+      "Controller": "Nieuw",
+      "Kabels": "Nieuw",
+      "Sensoren": "Nieuw",
       "Ondersteuningsstanden": "4 standen",
       "Display": "gebruikte Stella Vicenza",
       "Wielmaat": "28 inch"
@@ -594,19 +594,19 @@
     "condition": [
       {
         "item": "Motor",
-        "state": "een week"
-      },
-      {
-        "item": "Accu",
         "state": "6 maanden"
       },
       {
+        "item": "Accu",
+        "state": "een mmand"
+      },
+      {
         "item": "Controller",
-        "state": "een week"
+        "state": "6 maanden"
       },
       {
         "item": "Display",
-        "state": "een week"
+        "state": "6 maanden"
       },
       {
         "item": "Oplader",
