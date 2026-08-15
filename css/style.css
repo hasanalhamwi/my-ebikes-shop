@@ -561,10 +561,10 @@ img { max-width: 100%; display: block; }
   text-align: center;
 }
 
-/* Titles doubled in size on mobile — easier to read on small screens */
+/* The three footer section titles (Over ons / Garantie & service / Bezorging)
+   doubled in size on mobile only — everything else stays at its normal size. */
 @media (max-width: 700px) {
-  .hero h1 { font-size: 68px; }
-  .catalog h2 { font-size: 48px; }
-  .bike-card h3 { font-size: 44px; }
-  .detail-info h1 { font-size: 72px; }
+  .footer-company h4,
+  .footer-service h4,
+  .footer-delivery h4 { font-size: 22px; }
 }
