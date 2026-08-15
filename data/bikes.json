@@ -167,6 +167,66 @@
     ],
     "whatsapp": "31648671806"
   },
+
+{
+    "id": "pointer-noflik-ride",
+    "name": "Pointer Noflik Ride",
+    "tagline": "Heel mooie, nette, sterke en lichte fiets, als nieuw, met een volledig nieuwe elektrische set.",
+    "price": "€600",
+    "status": "Binnenkort beschikbaar",
+    "cover": "images/gazelle-medeo-x-tra-innergy/cover.jpg",
+    "gallery": [
+      "images/gazelle-medeo-x-tra-innergy/1.jpg",
+      "images/gazelle-medeo-x-tra-innergy/2.jpg",
+      "images/gazelle-medeo-x-tra-innergy/3.jpg",
+      "images/gazelle-medeo-x-tra-innergy/4.jpg",
+      "images/gazelle-medeo-x-tra-innergy/5.jpg",
+      "images/gazelle-medeo-x-tra-innergy/6.jpg",
+      "images/gazelle-medeo-x-tra-innergy/7.jpg",
+      "images/gazelle-medeo-x-tra-innergy/8.jpg",
+      "images/gazelle-medeo-x-tra-innergy/9.jpg"
+    ],
+    "specsTitle": "Specificaties",
+    "specs": {
+      "Framemaat": "50 cm",
+      "Motor": " gebruikte Pointer ",
+      "Accu": "Nieuw, 36V / 13Ah / 466Wh",
+      "Oplader": "Nieuw, output 42.0V / 2.0A",
+      "Actieradius": "80-100 km",
+      "Versnellingen": "7-speed Shimano Nexus",
+      "Controller": "Nieuw",
+      "Kabels": "Nieuw",
+      "Sensoren": "Nieuw",
+      "Ondersteuningsstanden": "5 standen",
+      "Display": "Modern, nieuw",
+      "Wielmaat": "28 inch"
+    },
+    "conditionTitle": "Elektrische onderdelen &amp; garantie",
+    "condition": [
+      {
+        "item": "Motor",
+        "state": "3 maanden"
+      },
+      {
+        "item": "Accu",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Controller",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Display",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Oplader",
+        "state": "6 maanden"
+      }
+    ],
+    "whatsapp": "31648671806"
+  },
+  
   {
     "id": "altera",
     "name": "Altera",
