@@ -115,7 +115,7 @@
     "id": "gazelle-medeo-x-tra-innergy",
     "name": "Gazelle Medeo X-tra Innergy",
     "tagline": "Heel mooie, nette, sterke en lichte fiets, als nieuw, met een volledig vernieuwde elektrische aandrijving",
-    "price": "Prijs op aanvraag",
+    "price": "750",
     "status": "Binnenkort beschikbaar",
     "cover": "images/gazelle-medeo-x-tra-innergy/cover.jpg",
     "gallery": [
@@ -186,23 +186,23 @@
     "specsTitle": "Specificaties",
     "specs": {
       "Framemaat": "50 cm",
-      "Motor": "Nieuw, 36V 250W",
+      "Motor": "gebruikte Altera",
       "Accu": "Nieuw, 36V / 13Ah / 466Wh",
       "Oplader": "Nieuw, output 42.0V / 2.0A",
       "Actieradius": "80-100 km",
       "Versnellingen": "7-speed Shimano Nexus",
-      "Controller": "Nieuw",
-      "Kabels": "Nieuw",
-      "Sensoren": "Nieuw",
+      "Controller": "gebruikte Altera",
+      "Kabels": "gebruikte Altera",
+      "Sensoren": "gebruikte Altera",
       "Ondersteuningsstanden": "5 standen",
-      "Display": "Modern, nieuw",
+      "Display": "gebruikte Altera",
       "Wielmaat": "28 inch"
     },
     "conditionTitle": "Elektrische onderdelen &amp; garantie",
     "condition": [
       {
         "item": "Motor",
-        "state": "6 maanden"
+        "state": "een week"
       },
       {
         "item": "Accu",
@@ -210,11 +210,11 @@
       },
       {
         "item": "Controller",
-        "state": "6 maanden"
+        "state": "een week"
       },
       {
         "item": "Display",
-        "state": "6 maanden"
+        "state": "een week"
       },
       {
         "item": "Oplader",
@@ -227,7 +227,7 @@
     "id": "amslod-hamilton-sx",
     "name": "Amslod Hamilton SX",
     "tagline": "Sportieve e-bike met een moderne uitstraling en een soepele rijervaring.",
-    "price": "Prijs op aanvraag",
+    "price": "550",
     "status": "Binnenkort beschikbaar",
     "cover": "images/amslod-hamilton-sx/cover.jpg",
     "gallery": [
