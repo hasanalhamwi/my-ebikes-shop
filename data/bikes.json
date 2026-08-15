@@ -226,7 +226,7 @@
   {
     "id": "amslod-hamilton-sx",
     "name": "Amslod Hamilton SX",
-    "tagline": "Sportieve e-bike met een moderne uitstraling en een soepele rijervaring.",
+    "tagline": "Klassieke Amslod e-bike, geschikt voor dagelijks gebruik.",
     "price": "€550",
     "status": "Binnenkort beschikbaar",
     "cover": "images/amslod-hamilton-sx/cover.jpg",
@@ -236,8 +236,8 @@
       "images/amslod-hamilton-sx/3.jpg",
       "images/amslod-hamilton-sx/4.jpg",
       "images/amslod-hamilton-sx/5.jpg",
-      "images/amslod-hamilton-sx/6.jpg",
-      "images/amslod-hamilton-sx/7.jpg"
+      "images/amslod-hamilton-sx/6.jpg"
+      
     ],
     "specsTitle": "Specificaties",
     "specs": {
