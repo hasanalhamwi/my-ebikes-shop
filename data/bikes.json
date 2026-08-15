@@ -58,8 +58,8 @@
   {
     "id": "batavus-weekend-easy",
     "name": "Batavus Weekend Easy",
-    "tagline": "Ideaal voor gezinstochtjes en ritjes door de stad",
-    "price": "€750",
+    "tagline": "Heel mooie, nette, sterke  fiets, als nieuw.",
+    "price": "€725",
     "status": "Beschikbaar",
     "cover": "images/batavus-weekend-easy/cover.jpg",
     "gallery": [
@@ -74,72 +74,16 @@
     "specsTitle": "Specificaties",
     "specs": {
       "Framemaat": "50 cm",
-      "Motor": "Bosch Active Line, 250W",
-      "Accu": "36V / 9Ah",
-      "Oplader": "42.0V / 2.0A - origineel",
-      "Actieradius": "40-50 km",
-      "Versnellingen": "8-speed Shimano Nexus",
-      "Controller": "Bosch, origineel",
-      "Kabels": "Gecontroleerd - goede staat",
-      "Sensoren": "Snelheidssensor - werkend",
-      "Ondersteuningsstanden": "3 standen (Eco, Normaal, Sport)",
-      "Display": "Bosch Purion, origineel",
-      "Wielmaat": "26 inch"
-    },
-    "conditionTitle": "Elektrische onderdelen &amp; garantie",
-    "condition": [
-      {
-        "item": "Motor",
-        "state": "6 maanden"
-      },
-      {
-        "item": "Accu",
-        "state": "6 maanden"
-      },
-      {
-        "item": "Controller",
-        "state": "6 maanden"
-      },
-      {
-        "item": "Display",
-        "state": "6 maanden"
-      },
-      {
-        "item": "Lader",
-        "state": "6 maanden"
-      }
-    ],
-    "whatsapp": "31648671806"
-  },
-  {
-    "id": "gazelle-medeo-x-tra-innergy",
-    "name": "Gazelle Medeo X-tra Innergy",
-    "tagline": "Rijklaar en in uitstekende staat, met een volledig vernieuwde elektrische aandrijving",
-    "price": "Prijs op aanvraag",
-    "status": "Binnenkort beschikbaar",
-    "cover": "images/gazelle-medeo-x-tra-innergy/cover.jpg",
-    "gallery": [
-      "images/gazelle-medeo-x-tra-innergy/1.jpg",
-      "images/gazelle-medeo-x-tra-innergy/2.jpg",
-      "images/gazelle-medeo-x-tra-innergy/3.jpg",
-      "images/gazelle-medeo-x-tra-innergy/4.jpg",
-      "images/gazelle-medeo-x-tra-innergy/5.jpg",
-      "images/gazelle-medeo-x-tra-innergy/6.jpg",
-      "images/gazelle-medeo-x-tra-innergy/7.jpg"
-    ],
-    "specsTitle": "Specificaties",
-    "specs": {
-      "Framemaat": "53 cm",
-      "Motor": "Shimano Steps, 250W",
-      "Accu": "36V / 11Ah - gereviseerd",
-      "Oplader": "42.0V / 2.0A - origineel",
-      "Actieradius": "80-90 km",
+      "Motor": "Nieuw, 36V 250W",
+      "Accu": "Nieuw, 36V / 13Ah / 466Wh",
+      "Oplader": "Nieuw, output 42.0V / 2.0A",
+      "Actieradius": "80-100 km",
       "Versnellingen": "7-speed Shimano Nexus",
-      "Controller": "Origineel, gereviseerd",
+      "Controller": "Nieuw",
       "Kabels": "Nieuw",
-      "Sensoren": "Trapkrachtsensor - gecontroleerd",
-      "Ondersteuningsstanden": "4 standen (Eco, Normaal, Hoog, Turbo)",
-      "Display": "Origineel, volledig werkend",
+      "Sensoren": "Nieuw",
+      "Ondersteuningsstanden": "5 standen",
+      "Display": "Modern, nieuw",
       "Wielmaat": "28 inch"
     },
     "conditionTitle": "Elektrische onderdelen &amp; garantie",
@@ -161,7 +105,63 @@
         "state": "6 maanden"
       },
       {
-        "item": "Lader",
+        "item": "Oplader",
+        "state": "6 maanden"
+      }
+    ],
+    "whatsapp": "31648671806"
+  },
+  {
+    "id": "gazelle-medeo-x-tra-innergy",
+    "name": "Gazelle Medeo X-tra Innergy",
+    "tagline": "Heel mooie, nette, sterke en lichte fiets, als nieuw.",
+    "price": "Prijs op aanvraag",
+    "status": "Binnenkort beschikbaar",
+    "cover": "images/gazelle-medeo-x-tra-innergy/cover.jpg",
+    "gallery": [
+      "images/gazelle-medeo-x-tra-innergy/1.jpg",
+      "images/gazelle-medeo-x-tra-innergy/2.jpg",
+      "images/gazelle-medeo-x-tra-innergy/3.jpg",
+      "images/gazelle-medeo-x-tra-innergy/4.jpg",
+      "images/gazelle-medeo-x-tra-innergy/5.jpg",
+      "images/gazelle-medeo-x-tra-innergy/6.jpg",
+      "images/gazelle-medeo-x-tra-innergy/7.jpg"
+    ],
+   "specsTitle": "Specificaties",
+    "specs": {
+      "Framemaat": "50 cm",
+      "Motor": "Nieuw, 36V 250W",
+      "Accu": "Nieuw, 36V / 13Ah / 466Wh",
+      "Oplader": "Nieuw, output 42.0V / 2.0A",
+      "Actieradius": "80-100 km",
+      "Versnellingen": "7-speed Shimano Nexus",
+      "Controller": "Nieuw",
+      "Kabels": "Nieuw",
+      "Sensoren": "Nieuw",
+      "Ondersteuningsstanden": "5 standen",
+      "Display": "Modern, nieuw",
+      "Wielmaat": "28 inch"
+    },
+    "conditionTitle": "Elektrische onderdelen &amp; garantie",
+    "condition": [
+      {
+        "item": "Motor",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Accu",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Controller",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Display",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Oplader",
         "state": "6 maanden"
       }
     ],
