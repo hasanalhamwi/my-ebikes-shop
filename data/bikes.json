@@ -58,7 +58,7 @@
   {
     "id": "batavus-weekend-easy",
     "name": "Batavus Weekend Easy",
-    "tagline": "Heel mooie, nette, sterke fiets, als nieuw, met een volledig vernieuwde elektrische aandrijving",
+    "tagline": "Heel mooie, nette, sterke en lichte fiets, als nieuw, met een volledig nieuwe elektrische set.",
     "price": "€725",
     "status": "Beschikbaar",
     "cover": "images/batavus-weekend-easy/cover.jpg",
@@ -71,7 +71,7 @@
       "images/batavus-weekend-easy/6.jpg",
       "images/batavus-weekend-easy/7.jpg"
     ],
-   "specsTitle": "Specificaties",
+    "specsTitle": "Specificaties",
     "specs": {
       "Framemaat": "50 cm",
       "Motor": "Nieuw, 36V 250W",
@@ -114,8 +114,8 @@
   {
     "id": "gazelle-medeo-x-tra-innergy",
     "name": "Gazelle Medeo X-tra Innergy",
-    "tagline": "Heel mooie, nette, sterke en lichte fiets, als nieuw, met een volledig vernieuwde elektrische aandrijving",
-    "price": "750",
+    "tagline": "Heel mooie, nette, sterke en lichte fiets, als nieuw, met een volledig nieuwe elektrische set.",
+    "price": "€750",
     "status": "Binnenkort beschikbaar",
     "cover": "images/gazelle-medeo-x-tra-innergy/cover.jpg",
     "gallery": [
@@ -171,7 +171,7 @@
     "id": "altera",
     "name": "Altera",
     "tagline": "Comfortabele e-bike met vlotte trapondersteuning, ideaal voor dagelijks gebruik.",
-    "price": "Prijs op aanvraag",
+    "price": "€485",
     "status": "Binnenkort beschikbaar",
     "cover": "images/altera/cover.jpg",
     "gallery": [
@@ -210,7 +210,7 @@
       },
       {
         "item": "Controller",
-        "state": "een week"
+        "state": "6 maanden"
       },
       {
         "item": "Display",
@@ -227,7 +227,7 @@
     "id": "amslod-hamilton-sx",
     "name": "Amslod Hamilton SX",
     "tagline": "Sportieve e-bike met een moderne uitstraling en een soepele rijervaring.",
-    "price": "550",
+    "price": "€550",
     "status": "Binnenkort beschikbaar",
     "cover": "images/amslod-hamilton-sx/cover.jpg",
     "gallery": [
@@ -242,7 +242,7 @@
     "specsTitle": "Specificaties",
     "specs": {
       "Framemaat": "50 cm",
-      "Motor": "Nieuw, 36V 250W",
+      "Motor": "gebruikte Amslod Hamilton SX",
       "Accu": "Nieuw, 36V / 13Ah / 466Wh",
       "Oplader": "Nieuw, output 42.0V / 2.0A",
       "Actieradius": "80-100 km",
@@ -258,7 +258,7 @@
     "condition": [
       {
         "item": "Motor",
-        "state": "6 maanden"
+        "state": "3 maanden"
       },
       {
         "item": "Accu",
@@ -282,8 +282,8 @@
   {
     "id": "colorado-arrow",
     "name": "Colorado Arrow",
-    "tagline": "Wendbare e-bike, perfect voor de stad en korte woon-werkritten.",
-    "price": "Prijs op aanvraag",
+    "tagline": "Mooie, nette, sterke fiets, als nieuw, met een volledig nieuwe elektrische set.",
+    "price": "€650",
     "status": "Binnenkort beschikbaar",
     "cover": "images/colorado-arrow/cover.jpg",
     "gallery": [
@@ -339,7 +339,7 @@
     "id": "sparta-e-motion-c2",
     "name": "Sparta e-Motion C2",
     "tagline": "Robuuste stadsfiets met betrouwbare elektrische ondersteuning.",
-    "price": "Prijs op aanvraag",
+    "price": "€200",
     "status": "Binnenkort beschikbaar",
     "cover": "images/sparta-e-motion-c2/cover.jpg",
     "gallery": [
@@ -355,9 +355,9 @@
     "specs": {
       "Framemaat": "53 cm",
       "Motor": "gebruikte Sparta e-Motion C2",
-      "Accu": "Nieuw, 36V / 13Ah / 466Wh",
-      "Oplader": "Nieuw, output 42.0V / 2.0A",
-      "Actieradius": "80-100 km",
+      "Accu": "gebruikte Sparta e-Motion C2",
+      "Oplader": "gebruikte Sparta e-Motion C2",
+      "Actieradius": "40-50 km",
       "Versnellingen": "7-speed Shimano Nexus",
       "Controller": "gebruikte Sparta e-Motion C2",
       "Kabels": "gebruikte Sparta e-Motion C2",
@@ -374,7 +374,7 @@
       },
       {
         "item": "Accu",
-        "state": "6 maanden"
+        "state": "een week"
       },
       {
         "item": "Controller",
@@ -386,7 +386,7 @@
       },
       {
         "item": "Oplader",
-        "state": "6 maanden"
+        "state": "een week"
       }
     ],
     "whatsapp": "31648671806"
@@ -395,7 +395,7 @@
     "id": "sparta-f7-e",
     "name": "Sparta F7e",
     "tagline": "Stijlvolle e-bike met een krachtige, stille motor voor elke rit.",
-    "price": "Prijs op aanvraag",
+    "price": "€485",
     "status": "Binnenkort beschikbaar",
     "cover": "images/sparta-f7-e/cover.jpg",
     "gallery": [
@@ -451,7 +451,7 @@
     "id": "sparta-f8-e-limited-series",
     "name": "Sparta F8e Limited Series",
     "tagline": "Exclusieve editie met extra afwerking en een soepele elektrische aandrijving.",
-    "price": "Prijs op aanvraag",
+    "price": "€725",
     "status": "Binnenkort beschikbaar",
     "cover": "images/sparta-f8-e-limited-series/cover.jpg",
     "gallery": [
@@ -507,7 +507,7 @@
     "id": "stella-albatros",
     "name": "Stella Albatros",
     "tagline": "Elegante e-bike met een comfortabele zit en een ruime actieradius.",
-    "price": "Prijs op aanvraag",
+    "price": "€525",
     "status": "Binnenkort beschikbaar",
     "cover": "images/stella-albatros/cover.jpg",
     "gallery": [
@@ -538,7 +538,7 @@
     "condition": [
       {
         "item": "Motor",
-        "state": "een week"
+        "state": "3 maanden"
       },
       {
         "item": "Accu",
@@ -546,11 +546,11 @@
       },
       {
         "item": "Controller",
-        "state": "een week"
+        "state": "6 maanden"
       },
       {
         "item": "Display",
-        "state": "een week"
+        "state": "6 maanden"
       },
       {
         "item": "Oplader",
@@ -563,7 +563,7 @@
     "id": "stella-vicenza",
     "name": "Stella Vicenza",
     "tagline": "Moderne e-bike met een sportief silhouet en fijne rijeigenschappen.",
-    "price": "Prijs op aanvraag",
+    "price": "€550",
     "status": "Binnenkort beschikbaar",
     "cover": "images/stella-vicenza/cover.jpg",
     "gallery": [
@@ -619,7 +619,7 @@
     "id": "stella-classelite-verona",
     "name": "Stella Classelite Verona",
     "tagline": "Verzorgde e-bike met een klassieke uitstraling en comfortabele zithouding.",
-    "price": "Prijs op aanvraag",
+    "price": "€550",
     "status": "Binnenkort beschikbaar",
     "cover": "images/stella-classelite-verona/cover.jpg",
     "gallery": [
@@ -650,7 +650,7 @@
     "condition": [
       {
         "item": "Motor",
-        "state": "een week"
+        "state": "3 maanden"
       },
       {
         "item": "Accu",
@@ -658,11 +658,11 @@
       },
       {
         "item": "Controller",
-        "state": "een week"
+        "state": "3 maanden"
       },
       {
         "item": "Display",
-        "state": "een week"
+        "state": "3 maanden"
       },
       {
         "item": "Oplader",
@@ -675,7 +675,7 @@
     "id": "qwic-n7.1",
     "name": "QWIC N7.1",
     "tagline": "Strakke, moderne e-bike met een lichte frameconstructie en vlotte trapondersteuning.",
-    "price": "Prijs op aanvraag",
+    "price": "€350",
     "status": "Binnenkort beschikbaar",
     "cover": "images/qwic-n7.1/cover.jpg",
     "gallery": [
@@ -691,9 +691,9 @@
     "specs": {
       "Framemaat": "53 cm",
       "Motor": "gebruikte QWIC N7.1",
-      "Accu": "Nieuw, 36V / 13Ah / 466Wh",
-      "Oplader": "Nieuw, output 42.0V / 2.0A",
-      "Actieradius": "80-100 km",
+      "Accu": "gebruikte QWIC N7.1",
+      "Oplader": "gebruikte QWIC N7.1",
+      "Actieradius": "40-50 km",
       "Versnellingen": "7-speed Shimano Nexus",
       "Controller": "gebruikte QWIC N7.1",
       "Kabels": "gebruikte QWIC N7.1",
@@ -710,7 +710,7 @@
       },
       {
         "item": "Accu",
-        "state": "6 maanden"
+        "state": "een week"
       },
       {
         "item": "Controller",
@@ -722,7 +722,7 @@
       },
       {
         "item": "Oplader",
-        "state": "6 maanden"
+        "state": "een week"
       }
     ],
     "whatsapp": "31648671806"
@@ -731,7 +731,7 @@
     "id": "sparta-e-motion-c3",
     "name": "Sparta e-Motion C3",
     "tagline": "Degelijke stadsfiets met stabiele elektrische ondersteuning voor dagelijks gebruik.",
-    "price": "Prijs op aanvraag",
+    "price": "€575",
     "status": "Binnenkort beschikbaar",
     "cover": "images/sparta-e-motion-c3/cover.jpg",
     "gallery": [
@@ -787,7 +787,7 @@
     "id": "pointer-noflik-ride",
     "name": "Pointer Noflik Ride",
     "tagline": "Praktische e-bike met een soepele rijervaring, geschikt voor stad en woon-werkverkeer.",
-    "price": "Prijs op aanvraag",
+    "price": "€625",
     "status": "Binnenkort beschikbaar",
     "cover": "images/pointer-noflik-ride/cover.jpg",
     "gallery": [
