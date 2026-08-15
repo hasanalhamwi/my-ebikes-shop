@@ -339,7 +339,7 @@
     "id": "sparta-e-motion-c2",
     "name": "Sparta e-Motion C2",
     "tagline": "Robuuste stadsfiets met betrouwbare elektrische ondersteuning.",
-    "price": "€200",
+    "price": "€185",
     "status": "Binnenkort beschikbaar",
     "cover": "images/sparta-e-motion-c2/cover.jpg",
     "gallery": [
@@ -450,7 +450,7 @@
   {
     "id": "sparta-f8-e-limited-series",
     "name": "Sparta F8e Limited Series",
-    "tagline": "Exclusieve editie met extra afwerking en een soepele elektrische aandrijving.",
+    "tagline": "Heel mooie, nette, sterke  fiets, als nieuw, met een volledig nieuwe elektrische set.",
     "price": "€725",
     "status": "Binnenkort beschikbaar",
     "cover": "images/sparta-f8-e-limited-series/cover.jpg",
@@ -516,8 +516,8 @@
       "images/stella-albatros/3.jpg",
       "images/stella-albatros/4.jpg",
       "images/stella-albatros/5.jpg",
-      "images/stella-albatros/6.jpg",
-      "images/stella-albatros/7.jpg"
+      "images/stella-albatros/6.jpg"
+     
     ],
     "specsTitle": "Specificaties",
     "specs": {
