@@ -180,8 +180,8 @@
       "images/altera/3.jpg",
       "images/altera/4.jpg",
       "images/altera/5.jpg",
-      "images/altera/6.jpg",
-      "images/altera/7.jpg"
+      "images/altera/6.jpg"
+      
     ],
     "specsTitle": "Specificaties",
     "specs": {
@@ -210,7 +210,7 @@
       },
       {
         "item": "Controller",
-        "state": "6 maanden"
+        "state": "een week"
       },
       {
         "item": "Display",
