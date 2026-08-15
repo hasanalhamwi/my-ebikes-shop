@@ -14,7 +14,7 @@ fetch('data/bikes.json')
       container.innerHTML = '<p class="empty-state">Deze fiets kon niet worden gevonden.</p>';
       return;
     }
-    document.title = bike.name + ' — e-bikes.gereviseerd';
+    document.title = bike.name + ' — E-Bikes-Enno';
     container.innerHTML = renderBike(bike);
     setupGallery(bike);
   })
@@ -32,8 +32,9 @@ function renderBike(bike) {
     <li><span class="label">${c.item}</span><span class="value">${c.state}</span></li>
   `).join('');
 
-  // Pre-fill a Dutch WhatsApp message with the bike name
-  const waMessage = encodeURIComponent(`Hallo, ik ben geinteresseerd in de "${bike.name}" die op jullie website staat.`);
+  // Build a WhatsApp message that already contains the bike's key info,
+  // so the seller gets full context immediately; the customer just adds their question below it.
+  const waMessage = buildWhatsAppMessage(bike);
   const waLink = `https://wa.me/${bike.whatsapp}?text=${waMessage}`;
 
   return `
@@ -67,6 +68,30 @@ function renderBike(bike) {
       </div>
     </div>
   `;
+}
+
+function buildWhatsAppMessage(bike) {
+  const s = bike.specs || {};
+
+  // Collect which spec fields are marked as "Nieuw" (new), for a short highlight line
+  const nieuweOnderdelen = Object.entries(s)
+    .filter(([, value]) => /nieuw/i.test(value))
+    .map(([key]) => key);
+
+  const pageUrl = window.location.href;
+
+  const lines = [
+    `Hallo, ik ben geinteresseerd in de "${bike.name}" (${bike.price}).`,
+    `Bekijk hier alle informatie over deze fiets: ${pageUrl}`,
+  ];
+
+  if (nieuweOnderdelen.length) {
+    lines.push(`Nieuw aan deze fiets: ${nieuweOnderdelen.join(', ')}`);
+  }
+
+  lines.push('', 'Mijn vraag: ');
+
+  return encodeURIComponent(lines.join('\n'));
 }
 
 function setupGallery(bike) {
