@@ -71,20 +71,20 @@
       "images/batavus-weekend-easy/6.jpg",
       "images/batavus-weekend-easy/7.jpg"
     ],
-    "specsTitle": "Specificaties",
+   "specsTitle": "Specificaties",
     "specs": {
       "Framemaat": "50 cm",
-      "Motor": "Bosch Active Line, 250W",
-      "Accu": "36V / 9Ah",
-      "Oplader": "42.0V / 2.0A - origineel",
-      "Actieradius": "40-50 km",
-      "Versnellingen": "8-speed Shimano Nexus",
-      "Controller": "Bosch, origineel",
-      "Kabels": "Gecontroleerd - goede staat",
-      "Sensoren": "Snelheidssensor - werkend",
-      "Ondersteuningsstanden": "3 standen (Eco, Normaal, Sport)",
-      "Display": "Bosch Purion, origineel",
-      "Wielmaat": "26 inch"
+      "Motor": "Nieuw, 36V 250W",
+      "Accu": "Nieuw, 36V / 13Ah / 466Wh",
+      "Oplader": "Nieuw, output 42.0V / 2.0A",
+      "Actieradius": "80-100 km",
+      "Versnellingen": "7-speed Shimano Nexus",
+      "Controller": "Nieuw",
+      "Kabels": "Nieuw",
+      "Sensoren": "Nieuw",
+      "Ondersteuningsstanden": "5 standen",
+      "Display": "Modern, nieuw",
+      "Wielmaat": "28 inch"
     },
     "conditionTitle": "Elektrische onderdelen &amp; garantie",
     "condition": [
