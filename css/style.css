@@ -75,7 +75,7 @@ img { max-width: 100%; display: block; }
 .brand span { color: var(--color-accent); }
 
 @media (max-width: 480px) {
-  .brand { font-size: 40px; gap: 8px; }
+  .brand { font-size: 45px; gap: 8px; }
   .brand-logo { width: 85px; height: 85px; }
 }
 
@@ -548,6 +548,16 @@ img { max-width: 100%; display: block; }
 
 .footer-company a { color: var(--color-accent); }
 .footer-company a:hover { text-decoration: underline; }
+
+.cert-link {
+  display: inline-block;
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--color-whatsapp);
+  text-decoration: underline;
+}
+
+.cert-link:hover { color: var(--color-accent); }
 
 .footer-bottom {
   border-top: 1px solid var(--color-border);
