@@ -80,7 +80,7 @@ img { max-width: 100%; display: block; }
 }
 
 /* ============================================
-   Hero section
+   Hero section (text only — image removed)
    ============================================ */
 .hero {
   padding: 60px 0 50px;
@@ -88,15 +88,7 @@ img { max-width: 100%; display: block; }
 }
 
 .hero .container {
-  display: grid;
-  grid-template-columns: 1.1fr 1fr;
-  gap: 40px;
-  align-items: center;
-}
-
-@media (max-width: 800px) {
-  .hero .container { grid-template-columns: 1fr; }
-  .hero-media { display: none; }
+  max-width: 800px;
 }
 
 .hero-eyebrow {
@@ -121,39 +113,6 @@ img { max-width: 100%; display: block; }
   color: var(--color-text-muted);
   font-size: 18px;
   margin: 0;
-}
-
-.hero-media {
-  position: relative;
-  border-radius: var(--radius);
-  overflow: hidden;
-  border: 1px solid var(--color-border);
-  aspect-ratio: 4/3;
-  background: var(--color-bg-elevated);
-}
-
-.hero-media img { width: 100%; height: 100%; object-fit: cover; }
-
-.hero-badge {
-  position: absolute;
-  left: 16px;
-  bottom: 16px;
-  background: rgba(8, 12, 10, 0.72);
-  color: var(--color-text);
-  font-family: var(--font-mono);
-  font-size: 13px;
-  letter-spacing: 0.5px;
-  padding: 8px 14px;
-  border-radius: var(--radius);
-  border: 1px solid var(--color-border);
-}
-
-/* Mobile-only promotional banner, shown right after the header */
-.mobile-banner { display: none; }
-
-@media (max-width: 700px) {
-  .mobile-banner { display: block; }
-  .mobile-banner img { width: 100%; display: block; }
 }
 
 /* ============================================
@@ -579,24 +538,10 @@ img { max-width: 100%; display: block; }
   .footer-delivery h4 { font-size: 22px; }
 }
 
-.mobile-banner {
-display: none;
-}
-
-@media (max-width: 768px) {
-.mobile-banner {
-display: block;
-width: 100%;
-margin: 0;
-}
-
-.mobile-banner img {
-width: 100%;
-height: auto;
-display: block;
-max-width: 100%;
-}
-}
+/* ============================================
+   Promo banner (full-width background, content aligned
+   with the same container width as the header logo)
+   ============================================ */
 .promo-banner {
   position: relative;
   width: 100%;
@@ -625,7 +570,10 @@ max-width: 100%;
 .promo-top {
   position: relative;
   z-index: 2;
-  padding: 28px 24px 0;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  width: 100%;
+  padding: 28px 20px 0;
 }
 
 .promo-badge {
@@ -673,7 +621,10 @@ max-width: 100%;
   z-index: 2;
   display: flex;
   background: rgba(8,12,10,.85);
-  margin: 0 20px 20px;
+  max-width: var(--max-width);
+  margin: 0 auto 20px;
+  width: 100%;
+  padding: 0 20px;
   border-radius: var(--radius);
   overflow: hidden;
 }
