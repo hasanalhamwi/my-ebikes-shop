@@ -942,5 +942,61 @@
       { "item": "Oplader", "state": "6 maanden" }
     ],
     "whatsapp": "31648671806"
-}
+},
+  {
+    "id": "sparta-e-motion-c4",
+    "name": "Sparta e-Motion C4",
+    "tagline": "Gebruikte e-bike met een comfortabele zithouding, geschikt voor dagelijks gebruik.",
+    "price": "€285",
+    "status": "Binnenkort beschikbaar",
+    "cover": "images/sparta-e-motion-c4/cover.jpg",
+    "gallery": [
+      "images/sparta-e-motion-c4/1.jpg",
+      "images/sparta-e-motion-c4/2.jpg",
+      "images/sparta-e-motion-c4/3.jpg",
+      "images/sparta-e-motion-c4/4.jpg",
+      "images/sparta-e-motion-c4/5.jpg",
+      "images/sparta-e-motion-c4/6.jpg",
+      "images/sparta-e-motion-c4/7.jpg"
+    ],
+    "specsTitle": "Specificaties",
+    "specs": {
+      "Framemaat": "52 cm",
+      "Motor": "gebruikte Sparta e-Motion C2",
+      "Accu": "gebruikte Sparta e-Motion C2",
+      "Oplader": "gebruikte Sparta e-Motion C2",
+      "Actieradius": "40-50 km",
+      "Versnellingen": "7-speed Shimano Nexus",
+      "Controller": "gebruikte Sparta e-Motion C2",
+      "Kabels": "gebruikte Sparta e-Motion C2",
+      "Sensoren": "gebruikte Sparta e-Motion C2",
+      "Ondersteuningsstanden": "4 standen",
+      "Display": "gebruikte Sparta e-Motion C2",
+      "Wielmaat": "28 inch"
+    },
+    "conditionTitle": "Elektrische onderdelen &amp; garantie",
+    "condition": [
+      {
+        "item": "Motor",
+        "state": "een week"
+      },
+      {
+        "item": "Accu",
+        "state": "een week"
+      },
+      {
+        "item": "Controller",
+        "state": "een week"
+      },
+      {
+        "item": "Display",
+        "state": "een week"
+      },
+      {
+        "item": "Oplader",
+        "state": "een week"
+      }
+    ],
+    "whatsapp": "31648671806"
+  }
 ]
