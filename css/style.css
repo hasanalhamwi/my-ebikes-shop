@@ -93,6 +93,10 @@ img { max-width: 100%; display: block; }
   border-bottom: 1px dashed var(--color-border);
 }
 
+@media (max-width: 700px) {
+  .hero { padding: 20px 0 40px; } /* was inheriting 60px top — too much empty space under the promo banner on mobile */
+}
+
 .hero .container {
   max-width: 800px;
 }
@@ -658,7 +662,8 @@ img { max-width: 100%; display: block; }
 }
 
 @media (max-width: 600px) {
-  .promo-banner { min-height: 448px; } /* was 640px, reduced 30% per client request */
+  .promo-banner { min-height: 493px; } /* was 448px, +10% to make room for the larger GPS star poking above */
+  .promo-top { padding-top: 46px; } /* was inheriting 28px — pushes the "GOEDE STAAT" pill down a bit so the star has breathing room above it */
   .promo-footer { flex-direction: row; }
   .promo-footer-item { font-size: 10px; padding: 12px 4px; }
 }
@@ -672,13 +677,19 @@ img { max-width: 100%; display: block; }
    do not set it back to hidden or the badge gets clipped again.
    Slowly rotates to draw attention. Uses .promo-banner's
    position:relative (set above, under "Promo banner") as its anchor.
+
+   NOTE: the two words need separate markup to have different font
+   sizes (GPS bigger, TRACKER smaller), so index.html must use:
+     <span class="gps-label-main">GPS</span>
+     <span class="gps-label-sub">TRACKER</span>
+   instead of a single <span>GPS<br>TRACKER</span>.
    ============================================ */
 .promo-gps-badge {
   position: absolute;
-  top: -90px;
+  top: -70px;
   right: 20px;
-  width: 220px;  /* desktop size, +300% vs previous 74px */
-  height: 220px;
+  width: 150px;  /* smaller than the previous 220px */
+  height: 150px;
   z-index: 5;
 }
 
@@ -686,8 +697,8 @@ img { max-width: 100%; display: block; }
   position: absolute;
   top: 0;
   left: 0;
-  width: 220px;
-  height: 220px;
+  width: 150px;
+  height: 150px;
   fill: var(--color-accent);
   filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.45));
   animation: promo-gps-spin 30s linear infinite;
@@ -702,44 +713,56 @@ img { max-width: 100%; display: block; }
   position: absolute;
   top: 0;
   left: 0;
-  width: 220px;
-  height: 220px;
+  width: 150px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 6px;
+  gap: 2px;
   color: var(--color-bg);
   text-align: center;
 }
 
 .promo-gps-badge-content svg {
-  width: 55px;
-  height: 55px;
+  width: 34px;
+  height: 34px;
   stroke-width: 2.2;
+  margin-bottom: 2px;
 }
 
-.promo-gps-badge-content span {
+.promo-gps-badge-content .gps-label-main {
   font-family: var(--font-display);
-  font-size: 24px;
+  font-size: 26px;   /* bigger, as requested */
   font-weight: 700;
   letter-spacing: 0.3px;
-  line-height: 1.2;
+  line-height: 1.1;
+  display: block;
+}
+
+.promo-gps-badge-content .gps-label-sub {
+  font-family: var(--font-display);
+  font-size: 12px;   /* smaller, as requested */
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 1.1;
+  display: block;
 }
 
 @media (max-width: 700px) {
   .promo-gps-badge {
-    width: 112px;  /* +75% vs previous 64px */
-    height: 112px;
-    top: -56px;    /* pulled up further so it clearly overlaps the header */
+    width: 90px;   /* smaller than the previous 112px */
+    height: 90px;
+    top: -46px;
     right: 12px;
   }
-  .promo-gps-badge-bg { width: 112px; height: 112px; }
-  .promo-gps-badge-content { width: 112px; height: 112px; }
+  .promo-gps-badge-bg { width: 90px; height: 90px; }
+  .promo-gps-badge-content { width: 90px; height: 90px; }
   .promo-gps-badge-content svg {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     stroke-width: 2.4;
   }
-  .promo-gps-badge-content span { font-size: 16px; } /* +100% vs previous 8px */
+  .promo-gps-badge-content .gps-label-main { font-size: 17px; }
+  .promo-gps-badge-content .gps-label-sub { font-size: 8px; }
 }
