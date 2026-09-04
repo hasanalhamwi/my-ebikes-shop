@@ -529,6 +529,8 @@ img { max-width: 100%; display: block; }
 .cert-link:hover { color: var(--color-accent); }
 .footer-map {
   margin-bottom: 22px;
+  grid-column: 1 / -1; /* forces full width even if this ended up nested inside .footer-grid by mistake */
+  width: 100%;
 }
 
 .footer-map h4 {
