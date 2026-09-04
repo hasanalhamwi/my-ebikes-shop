@@ -527,7 +527,47 @@ img { max-width: 100%; display: block; }
 }
 
 .cert-link:hover { color: var(--color-accent); }
+.footer-map {
+  margin-bottom: 22px;
+}
 
+.footer-map h4 {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin: 0 0 10px;
+}
+
+.footer-map-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 6;
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  filter: grayscale(20%) contrast(1.05); /* subtle tint so the white map blends better with the dark theme */
+}
+
+.footer-map-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+@media (max-width: 700px) {
+  .footer-map-frame { aspect-ratio: 4 / 3; }
+  .footer-map h4 { font-size: 22px; } /* matches the other doubled footer titles on mobile */
+}
+
+.footer-bottom {
+  border-top: 1px solid var(--color-border);
+  padding-top: 16px;
+  text-align: center;
+}
 .footer-bottom {
   border-top: 1px solid var(--color-border);
   padding-top: 16px;
