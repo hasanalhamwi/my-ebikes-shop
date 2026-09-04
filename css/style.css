@@ -551,7 +551,7 @@ img { max-width: 100%; display: block; }
 .promo-banner {
   position: relative;
   width: 100%;
-  min-height: 560px;
+  min-height: 392px; /* was 560px, reduced 30% per client request */
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -658,21 +658,28 @@ img { max-width: 100%; display: block; }
 }
 
 @media (max-width: 600px) {
-  .promo-banner { min-height: 640px; }
+  .promo-banner { min-height: 448px; } /* was 640px, reduced 30% per client request */
   .promo-footer { flex-direction: row; }
   .promo-footer-item { font-size: 10px; padding: 12px 4px; }
 }
-===========================
-.promo-banner {
-  position: relative;
-}
 
+/* ============================================
+   GPS-tracker badge — star-shaped seal on the promo banner.
+   Sits top-right of the hero image on desktop.
+   On mobile it's pulled up with a negative "top" so it visually
+   straddles the border between the dark header and the photo below
+   (half in the header, half on the image), per the client's request.
+   Slowly rotates to draw attention. Uses .promo-banner's
+   position:relative (set above, under "Promo banner") as its anchor —
+   do not remove position:relative from .promo-banner or this badge
+   will jump to the top of the whole page.
+   ============================================ */
 .promo-gps-badge {
   position: absolute;
   top: 14px;
   right: 14px;
-  width: 64px;
-  height: 64px;
+  width: 74px;
+  height: 74px;
   z-index: 5;
 }
 
@@ -680,8 +687,8 @@ img { max-width: 100%; display: block; }
   position: absolute;
   top: 0;
   left: 0;
-  width: 64px;
-  height: 64px;
+  width: 74px;
+  height: 74px;
   fill: var(--color-accent);
   filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.45));
   animation: promo-gps-spin 30s linear infinite;
@@ -696,25 +703,26 @@ img { max-width: 100%; display: block; }
   position: absolute;
   top: 0;
   left: 0;
-  width: 64px;
-  height: 64px;
+  width: 74px;
+  height: 74px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2px;
+  gap: 3px;
   color: var(--color-bg);
   text-align: center;
 }
 
 .promo-gps-badge-content svg {
-  width: 14px;
-  height: 14px;
+  width: 20px;
+  height: 20px;
+  stroke-width: 2.2;
 }
 
 .promo-gps-badge-content span {
   font-family: var(--font-display);
-  font-size: 8px;
+  font-size: 9px;
   font-weight: 700;
   letter-spacing: 0.3px;
   line-height: 1.2;
@@ -722,13 +730,17 @@ img { max-width: 100%; display: block; }
 
 @media (max-width: 700px) {
   .promo-gps-badge {
-    width: 50px;
-    height: 50px;
-    top: 10px;
+    width: 64px;
+    height: 64px;
+    top: -22px; /* pulled up so it straddles header/image border */
     right: 10px;
   }
-  .promo-gps-badge-bg { width: 50px; height: 50px; }
-  .promo-gps-badge-content { width: 50px; height: 50px; }
-  .promo-gps-badge-content svg { width: 11px; height: 11px; }
-  .promo-gps-badge-content span { font-size: 6.5px; }
+  .promo-gps-badge-bg { width: 64px; height: 64px; }
+  .promo-gps-badge-content { width: 64px; height: 64px; }
+  .promo-gps-badge-content svg {
+    width: 18px;
+    height: 18px;
+    stroke-width: 2.4;
+  }
+  .promo-gps-badge-content span { font-size: 8px; }
 }
