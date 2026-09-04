@@ -662,3 +662,64 @@ img { max-width: 100%; display: block; }
   .promo-footer { flex-direction: row; }
   .promo-footer-item { font-size: 10px; padding: 12px 4px; }
 }
+===========================
+.promo-gps-badge {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 110px;
+  height: 110px;
+  z-index: 2;
+}
+
+.promo-gps-badge-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  fill: var(--color-accent);
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.45));
+  animation: promo-gps-spin 30s linear infinite;
+}
+
+@keyframes promo-gps-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.promo-gps-badge-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  color: var(--color-bg);
+  text-align: center;
+}
+
+.promo-gps-badge-content svg {
+  width: 22px;
+  height: 22px;
+}
+
+.promo-gps-badge-content span {
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 1.25;
+}
+
+@media (max-width: 700px) {
+  .promo-gps-badge {
+    width: 78px;
+    height: 78px;
+    top: 12px;
+    right: 12px;
+  }
+  .promo-gps-badge-content svg { width: 16px; height: 16px; }
+  .promo-gps-badge-content span { font-size: 9px; }
+}
