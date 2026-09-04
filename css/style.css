@@ -733,8 +733,9 @@ img { max-width: 100%; display: block; }
 
 .promo-gps-badge-content .gps-label-main {
   font-family: var(--font-display);
-  font-size: 26px;
-  font-weight: 900; /* was 700, boosted to max available boldness */
+  font-size: 26px !important;
+  font-weight: 900 !important;
+  -webkit-text-stroke: 0.6px currentColor; /* extra boldness insurance, works even if the 900 weight fails to load */
   letter-spacing: 0.3px;
   line-height: 1.1;
   display: block;
@@ -742,7 +743,7 @@ img { max-width: 100%; display: block; }
 
 .promo-gps-badge-content .gps-label-sub {
   font-family: var(--font-display);
-  font-size: 6px;   /* was 12px, reduced 50% */
+  font-size: 6px !important;   /* was 12px, reduced 50% */
   font-weight: 700;
   letter-spacing: 0.5px;
   line-height: 1.1;
@@ -763,6 +764,6 @@ img { max-width: 100%; display: block; }
     height: 20px;
     stroke-width: 2.4;
   }
-  .promo-gps-badge-content .gps-label-main { font-size: 17px; font-weight: 900; } /* boosted to max available boldness */
-  .promo-gps-badge-content .gps-label-sub { font-size: 4px; } /* was 8px, reduced 50% */
+  .promo-gps-badge-content .gps-label-main { font-size: 17px !important; font-weight: 900 !important; -webkit-text-stroke: 0.4px currentColor; }
+  .promo-gps-badge-content .gps-label-sub { font-size: 4px !important; } /* was 8px, reduced 50% */
 }
