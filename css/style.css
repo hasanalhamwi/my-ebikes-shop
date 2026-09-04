@@ -763,6 +763,6 @@ img { max-width: 100%; display: block; }
     height: 20px;
     stroke-width: 2.4;
   }
-  .promo-gps-badge-content .gps-label-main { font-size: 17px; }
-  .promo-gps-badge-content .gps-label-sub { font-size: 8px; }
+  .promo-gps-badge-content .gps-label-main { font-size: 17px; font-weight: 900; } /* boosted to max available boldness */
+  .promo-gps-badge-content .gps-label-sub { font-size: 4px; } /* was 8px, reduced 50% */
 }
