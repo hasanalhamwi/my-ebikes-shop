@@ -1,4 +1,120 @@
 [
+{
+    "id": "amego-e-vibe-d2-damasfiets",
+    "name": "Amego E-Vibe D2 Damasfiets",
+    "tagline": "De fiets ziet er netjes en bijna als nieuw uit, met een vernieuwd elektrisch systeem.",
+    "price": "€585",
+    "status": "Beschikbaar",
+    "cover": "images/amego-e-vibe-d2-damasfiets/cover.jpg",
+    "gallery": [
+      "images/amego-e-vibe-d2-damasfiets/1.jpg",
+      "images/amego-e-vibe-d2-damasfiets/2.jpg",
+      "images/amego-e-vibe-d2-damasfiets/3.jpg",
+      "images/amego-e-vibe-d2-damasfiets/4.jpg",
+      "images/amego-e-vibe-d2-damasfiets/5.jpg",
+      "images/amego-e-vibe-d2-damasfiets/6.jpg",
+      "images/amego-e-vibe-d2-damasfiets/7.jpg",
+      "images/amego-e-vibe-d2-damasfiets/8.jpg"
+    ],
+    "specsTitle": "Specificaties",
+    "specs": {
+      "Framemaat": "48 cm",
+      "Motor": "Nieuw, 36V 250W",
+      "Accu": "Amego E-Vibe D2",
+      "Oplader": "Nieuw, output 42.0V / 2.0A",
+      "Actieradius": "60-70 km",
+      "Versnellingen": "7-speed Shimano Nexus",
+      "Controller": "Nieuw",
+      "Kabels": "Nieuw",
+      "Sensoren": "Nieuw",
+      "Ondersteuningsstanden": "5 standen",
+      "Display": "Modern, nieuw",
+      "Wielmaat": "28 inch"
+    },
+    "conditionTitle": "Elektrische onderdelen &amp; garantie",
+    "condition": [
+      {
+        "item": "Motor",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Accu",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Controller",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Display",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Oplader",
+        "state": "6 maanden"
+      }
+    ],
+    "whatsapp": "31648671806"
+  },
+  
+{
+    "id": "amego-e-vibe-d2-herenfiets",
+    "name": "Amego E-Vibe D2 Herenfiets",
+    "tagline": "De fiets ziet er netjes en bijna als nieuw uit, met een vernieuwd elektrisch systeem.",
+    "price": "€485",
+    "status": "Beschikbaar",
+    "cover": "images/amego-e-vibe-d2-herenfiets/cover.jpg",
+    "gallery": [
+      "images/amego-e-vibe-d2-herenfiets/1.jpg",
+      "images/amego-e-vibe-d2-herenfiets/2.jpg",
+      "images/amego-e-vibe-d2-herenfiets/3.jpg",
+      "images/amego-e-vibe-d2-herenfiets/4.jpg",
+      "images/amego-e-vibe-d2-herenfiets/5.jpg",
+      "images/amego-e-vibe-d2-herenfiets/6.jpg",
+      "images/amego-e-vibe-d2-herenfiets/7.jpg",
+      "images/amego-e-vibe-d2-herenfiets/8.jpg"
+    ],
+    "specsTitle": "Specificaties",
+    "specs": {
+      "Framemaat": "48 cm",
+      "Motor": " Amego E-Vibe D2",
+      "Accu": "Amego E-Vibe D2",
+      "Oplader": "Nieuw, output 42.0V / 2.0A",
+      "Actieradius": "60-70 km",
+      "Versnellingen": "7-speed Shimano Nexus",
+      "Controller": "Nieuw",
+      "Kabels": "Nieuw",
+      "Sensoren": "Nieuw",
+      "Ondersteuningsstanden": "5 standen",
+      "Display": "Modern, nieuw",
+      "Wielmaat": "28 inch"
+    },
+    "conditionTitle": "Elektrische onderdelen &amp; garantie",
+    "condition": [
+      {
+        "item": "Motor",
+        "state": "3 maanden"
+      },
+      {
+        "item": "Accu",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Controller",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Display",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Oplader",
+        "state": "6 maanden"
+      }
+    ],
+    "whatsapp": "31648671806"
+  },
+  
   {
     "id": "villette-hollande",
     "name": "Villette Hollande",
