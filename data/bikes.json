@@ -285,62 +285,7 @@
     ],
     "whatsapp": "31648671806"
   },
-  {
-    "id": "gazelle-medeo-x-tra-innergy",
-    "name": "Gazelle Medeo X-tra Innergy",
-    "tagline": "Heel mooie, nette, sterke en lichte fiets, als nieuw, met een volledig vernieuwd elektrisch systeem.",
-    "price": "€650",
-    "status": "Binnenkort beschikbaar",
-    "cover": "images/gazelle-medeo-x-tra-innergy/cover.jpg",
-    "gallery": [
-      "images/gazelle-medeo-x-tra-innergy/1.jpg",
-      "images/gazelle-medeo-x-tra-innergy/2.jpg",
-      "images/gazelle-medeo-x-tra-innergy/3.jpg",
-      "images/gazelle-medeo-x-tra-innergy/4.jpg",
-      "images/gazelle-medeo-x-tra-innergy/5.jpg",
-      "images/gazelle-medeo-x-tra-innergy/6.jpg",
-      "images/gazelle-medeo-x-tra-innergy/7.jpg"
-    ],
-    "specsTitle": "Specificaties",
-    "specs": {
-      "Framemaat": "48 cm",
-      "Motor": "Nieuw, 36V 250W",
-      "Accu": "Nieuw, 36V / 13Ah / 466Wh",
-      "Oplader": "Nieuw, output 42.0V / 2.0A",
-      "Actieradius": "80-100 km",
-      "Versnellingen": "7-speed Shimano Nexus",
-      "Controller": "Nieuw",
-      "Kabels": "Nieuw",
-      "Sensoren": "Nieuw",
-      "Ondersteuningsstanden": "5 standen",
-      "Display": "Modern, nieuw",
-      "Wielmaat": "28 inch"
-    },
-    "conditionTitle": "Elektrische onderdelen &amp; garantie",
-    "condition": [
-      {
-        "item": "Motor",
-        "state": "6 maanden"
-      },
-      {
-        "item": "Accu",
-        "state": "6 maanden"
-      },
-      {
-        "item": "Controller",
-        "state": "6 maanden"
-      },
-      {
-        "item": "Display",
-        "state": "6 maanden"
-      },
-      {
-        "item": "Oplader",
-        "state": "6 maanden"
-      }
-    ],
-    "whatsapp": "31648671806"
-  },
+ 
 
 {
     "id": "pointer-noflik-ride",
@@ -628,62 +573,7 @@
     ],
     "whatsapp": "31648671806"
   },
-  {
-    "id": "sparta-e-motion-c2",
-    "name": "Sparta e-Motion C2",
-    "tagline": "Gebruikte e-bike met een comfortabele zithouding, geschikt voor dagelijks gebruik.",
-    "price": "€185",
-    "status": "Binnenkort beschikbaar",
-    "cover": "images/sparta-e-motion-c2/cover.jpg",
-    "gallery": [
-      "images/sparta-e-motion-c2/1.jpg",
-      "images/sparta-e-motion-c2/2.jpg",
-      "images/sparta-e-motion-c2/3.jpg",
-      "images/sparta-e-motion-c2/4.jpg",
-      "images/sparta-e-motion-c2/5.jpg",
-      "images/sparta-e-motion-c2/6.jpg",
-      "images/sparta-e-motion-c2/7.jpg"
-    ],
-    "specsTitle": "Specificaties",
-    "specs": {
-      "Framemaat": "52 cm",
-      "Motor": "gebruikte Sparta e-Motion C2",
-      "Accu": "gebruikte Sparta e-Motion C2",
-      "Oplader": "gebruikte Sparta e-Motion C2",
-      "Actieradius": "40-50 km",
-      "Versnellingen": "7-speed Shimano Nexus",
-      "Controller": "gebruikte Sparta e-Motion C2",
-      "Kabels": "gebruikte Sparta e-Motion C2",
-      "Sensoren": "gebruikte Sparta e-Motion C2",
-      "Ondersteuningsstanden": "4 standen",
-      "Display": "gebruikte Sparta e-Motion C2",
-      "Wielmaat": "28 inch"
-    },
-    "conditionTitle": "Elektrische onderdelen &amp; garantie",
-    "condition": [
-      {
-        "item": "Motor",
-        "state": "een week"
-      },
-      {
-        "item": "Accu",
-        "state": "een week"
-      },
-      {
-        "item": "Controller",
-        "state": "een week"
-      },
-      {
-        "item": "Display",
-        "state": "een week"
-      },
-      {
-        "item": "Oplader",
-        "state": "een week"
-      }
-    ],
-    "whatsapp": "31648671806"
-  },
+  
   {
     "id": "sparta-f7-e",
     "name": "Sparta F7e",
