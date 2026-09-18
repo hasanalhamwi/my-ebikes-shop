@@ -56,6 +56,64 @@
     ],
     "whatsapp": "31648671806"
   },
+
+    {
+    "id": "curtis-in-motion",
+    "name": "Curtis in motion",
+    "tagline": "Sterke  elektrische fiets, zeer netjes.",
+    "price": "€375",
+    "status": "Beschikbaar",
+    "cover": "images/curtis-in-motion/cover.jpg",
+    "gallery": [
+      "images/curtis-in-motion/1.jpg",
+      "images/curtis-in-motion/2.jpg",
+      "images/curtis-in-motion/3.jpg",
+      "images/curtis-in-motion/4.jpg",
+      "images/curtis-in-motion/5.jpg",
+      "images/curtis-in-motion/6.jpg",
+      "images/curtis-in-motion/7.jpg",
+      "images/curtis-in-motion/8.jpg"
+    ],
+    "specsTitle": "Specificaties",
+    "specs": {
+      "Framemaat": "50 cm",
+      "Motor": "Curtis in motion",
+      "Accu": "Curtis in motion",
+      "Oplader": "Orgeneel",
+      "Actieradius": "60-70 km",
+      "Versnellingen": "7-speed Shimano Nexus",
+      "Controller": "Curtis in motion",
+      "Kabels": "Curtis in motion",
+      "Sensoren": "Curtis in motion",
+      "Ondersteuningsstanden": "3 standen",
+      "Display": "Curtis in motion",
+      "Wielmaat": "28 inch"
+    },
+    "conditionTitle": "Elektrische onderdelen &amp; garantie",
+    "condition": [
+      {
+        "item": "Motor",
+        "state": "een week"
+      },
+      {
+        "item": "Accu",
+        "state": "een week"
+      },
+      {
+        "item": "Controller",
+        "state": "een week"
+      },
+      {
+        "item": "Display",
+        "state": "een week"
+      },
+      {
+        "item": "Oplader",
+        "state": "een week"
+      }
+    ],
+    "whatsapp": "31648671806"
+  },
   
 {
     "id": "amego-e-vibe-d2-herenfiets",
