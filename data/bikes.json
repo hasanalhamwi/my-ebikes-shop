@@ -1,28 +1,28 @@
 [
-{
-    "id": "amego-e-vibe-d2-damasfiets",
-    "name": "Amego E-Vibe D2 Damasfiets",
-    "tagline": "De fiets ziet er netjes en bijna als nieuw uit, met een vernieuwd elektrisch systeem.",
-    "price": "€545",
-    "status": "Beschikbaar",
-    "cover": "images/amego-e-vibe-d2-damasfiets/cover.jpg",
+    {
+    "id": "gazelle-ultimate-t3i",
+    "name": "Gazelle Ultimate T3i",
+    "tagline": "Heel mooie, lichte en sterke elektrische fiets, zeer netjes en voorzien van een volledig vernieuwd elektrisch systeem.",
+    "price": "€700",
+    "status": "Binnenkort beschikbaar",
+    "cover": "images/gazelle-ultimate-t3i/cover.jpg",
     "gallery": [
-      "images/amego-e-vibe-d2-damasfiets/1.jpg",
-      "images/amego-e-vibe-d2-damasfiets/2.jpg",
-      "images/amego-e-vibe-d2-damasfiets/3.jpg",
-      "images/amego-e-vibe-d2-damasfiets/4.jpg",
-      "images/amego-e-vibe-d2-damasfiets/5.jpg",
-      "images/amego-e-vibe-d2-damasfiets/6.jpg",
-      "images/amego-e-vibe-d2-damasfiets/7.jpg",
-      "images/amego-e-vibe-d2-damasfiets/8.jpg"
+      "images/gazelle-ultimate-t3i/1.jpg",
+      "images/gazelle-ultimate-t3i/2.jpg",
+      "images/gazelle-ultimate-t3i/3.jpg",
+      "images/gazelle-ultimate-t3i/4.jpg",
+      "images/gazelle-ultimate-t3i/5.jpg",
+      "images/gazelle-ultimate-t3i/6.jpg",
+      "images/gazelle-ultimate-t3i/7.jpg"
+    
     ],
     "specsTitle": "Specificaties",
     "specs": {
-      "Framemaat": "48 cm",
+      "Framemaat": "50 cm",
       "Motor": "Nieuw, 36V 250W",
-      "Accu": "Amego E-Vibe D2",
+      "Accu": "Nieuw, 36V / 13Ah / 466Wh",
       "Oplader": "Nieuw, output 42.0V / 2.0A",
-      "Actieradius": "60-70 km",
+      "Actieradius": "80-100 km",
       "Versnellingen": "7-speed Shimano Nexus",
       "Controller": "Nieuw",
       "Kabels": "Nieuw",
@@ -52,6 +52,63 @@
       {
         "item": "Oplader",
         "state": "6 maanden"
+      }
+    ],
+    "whatsapp": "31648671806"
+  },
+
+    {
+    "id": "devron",
+    "name": "Pointer Noflik Ride",
+    "tagline": "Sterke en lichte elektrische fiets, zeer netjes en met een volledig vernieuwd elektrisch systeem.",
+    "price": "€485",
+    "status": "Binnenkort beschikbaar",
+    "cover": "images/devron/cover.jpg",
+    "gallery": [
+      "images/devron/1.jpg",
+      "images/devron/2.jpg",
+      "images/devron/3.jpg",
+      "images/devron/4.jpg",
+      "images/devron/5.jpg",
+      "images/devron/6.jpg",
+      "images/devron/7.jpg"
+    ],
+    "specsTitle": "Specificaties",
+    "specs": {
+      "Framemaat": "50 cm",
+      "Motor": " gebruikte  ",
+      "Accu": "gebruikte",
+      "Oplader": "gebruikte",
+      "Actieradius": "60-70 km",
+      "Versnellingen": "7-speed Shimano Nexus",
+      "Controller": "Nieuw",
+      "Kabels": "Nieuwe",
+      "Sensoren": "Nieuw",
+      "Ondersteuningsstanden": "5 standen",
+      "Display": "Modern, nieuw",
+      "Wielmaat": "28 inch"
+    },
+    "conditionTitle": "Elektrische onderdelen &amp; garantie",
+    "condition": [
+      {
+        "item": "Motor",
+        "state": "een maand"
+      },
+      {
+        "item": "Accu",
+        "state": "3 maanden"
+      },
+      {
+        "item": "Controller",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Display",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Oplader",
+        "state": "3 maanden"
       }
     ],
     "whatsapp": "31648671806"
