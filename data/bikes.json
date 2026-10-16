@@ -230,62 +230,7 @@
     "whatsapp": "31648671806"
   },
   
-  {
-    "id": "villette-hollande",
-    "name": "Villette Hollande",
-    "tagline": "De fiets ziet er netjes en bijna als nieuw uit, met een volledig vernieuwd elektrisch systeem.",
-    "price": "€600",
-    "status": "Beschikbaar",
-    "cover": "images/villette-hollande/cover.jpg",
-    "gallery": [
-      "images/villette-hollande/1.jpg",
-      "images/villette-hollande/2.jpg",
-      "images/villette-hollande/3.jpg",
-      "images/villette-hollande/4.jpg",
-      "images/villette-hollande/5.jpg",
-      "images/villette-hollande/6.jpg",
-      "images/villette-hollande/7.jpg"
-    ],
-    "specsTitle": "Specificaties",
-    "specs": {
-      "Framemaat": "50 cm",
-      "Motor": "Nieuw, 36V 250W",
-      "Accu": "Nieuw, 36V / 13Ah / 466Wh",
-      "Oplader": "Nieuw, output 42.0V / 2.0A",
-      "Actieradius": "80-100 km",
-      "Versnellingen": "7-speed Shimano Nexus",
-      "Controller": "Nieuw",
-      "Kabels": "Nieuw",
-      "Sensoren": "Nieuw",
-      "Ondersteuningsstanden": "5 standen",
-      "Display": "Modern, nieuw",
-      "Wielmaat": "28 inch"
-    },
-    "conditionTitle": "Elektrische onderdelen &amp; garantie",
-    "condition": [
-      {
-        "item": "Motor",
-        "state": "6 maanden"
-      },
-      {
-        "item": "Accu",
-        "state": "6 maanden"
-      },
-      {
-        "item": "Controller",
-        "state": "6 maanden"
-      },
-      {
-        "item": "Display",
-        "state": "6 maanden"
-      },
-      {
-        "item": "Oplader",
-        "state": "6 maanden"
-      }
-    ],
-    "whatsapp": "31648671806"
-  },
+  
   {
     "id": "batavus-weekend-easy",
     "name": "Batavus Weekend Easy",
