@@ -565,6 +565,101 @@ img { max-width: 100%; display: block; }
   .footer-map h4 { font-size: 22px; } /* matches the other doubled footer titles on mobile */
 }
 
+/* ============================================
+   Customer reviews (footer, between the three columns and the map)
+   ============================================ */
+.footer-reviews {
+  margin-bottom: 22px;
+  width: 100%;
+}
+
+.footer-reviews h4 {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin: 0 0 10px;
+}
+
+.reviews-summary {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.reviews-score {
+  font-family: var(--font-display);
+  font-size: 34px;
+  line-height: 1;
+  color: var(--color-accent);
+}
+
+.reviews-stars {
+  color: var(--color-accent);
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.reviews-count {
+  color: var(--color-text-muted);
+  font-size: 13px;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.review-card {
+  background: var(--color-bg-elevated);
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius);
+  padding: 16px 18px;
+}
+
+.review-stars {
+  color: var(--color-accent);
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.review-card p {
+  margin: 0 0 10px;
+  color: var(--color-text);
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.review-author {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: .5px;
+  color: var(--color-text-muted);
+}
+
+.reviews-link {
+  display: inline-block;
+  margin-top: 14px;
+  font-size: 13px;
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+.reviews-link:hover { color: var(--color-text); }
+
+@media (max-width: 900px) {
+  .reviews-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 700px) {
+  .footer-reviews h4 { font-size: 22px; } /* matches the other doubled footer titles on mobile */
+}
+
 .footer-bottom {
   border-top: 1px solid var(--color-border);
   padding-top: 16px;
