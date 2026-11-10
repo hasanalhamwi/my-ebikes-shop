@@ -225,64 +225,7 @@
     ],
     "whatsapp": "31648671806"
   },
-  {
-    "id": "pointer-noflik-ride",
-    "name": "Pointer Noflik Ride",
-    "tagline": "Sterke en lichte elektrische fiets, zeer netjes en met een volledig vernieuwd elektrisch systeem.",
-    "price": "€525",
-    "status": "Beschikbaar",
-    "cover": "images/pointer-noflik-ride/cover.jpg",
-    "gallery": [
-      "images/pointer-noflik-ride/1.jpg",
-      "images/pointer-noflik-ride/2.jpg",
-      "images/pointer-noflik-ride/3.jpg",
-      "images/pointer-noflik-ride/4.jpg",
-      "images/pointer-noflik-ride/5.jpg",
-      "images/pointer-noflik-ride/6.jpg",
-      "images/pointer-noflik-ride/7.jpg",
-      "images/pointer-noflik-ride/8.jpg",
-      "images/pointer-noflik-ride/9.jpg"
-    ],
-    "specsTitle": "Specificaties",
-    "specs": {
-      "Framemaat": "50 cm",
-      "Motor": "gebruikte Pointer",
-      "Accu": "Nieuw, 36V / 13Ah / 466Wh",
-      "Oplader": "Nieuw, output 42.0V / 2.0A",
-      "Actieradius": "80-100 km",
-      "Versnellingen": "7-speed Shimano Nexus",
-      "Controller": "Nieuw",
-      "Kabels": "Nieuw",
-      "Sensoren": "Nieuw",
-      "Ondersteuningsstanden": "5 standen",
-      "Display": "Modern, nieuw",
-      "Wielmaat": "28 inch"
-    },
-    "conditionTitle": "Elektrische onderdelen &amp; garantie",
-    "condition": [
-      {
-        "item": "Motor",
-        "state": "3 maanden"
-      },
-      {
-        "item": "Accu",
-        "state": "6 maanden"
-      },
-      {
-        "item": "Controller",
-        "state": "6 maanden"
-      },
-      {
-        "item": "Display",
-        "state": "6 maanden"
-      },
-      {
-        "item": "Oplader",
-        "state": "6 maanden"
-      }
-    ],
-    "whatsapp": "31648671806"
-  },
+  
   {
     "id": "altera",
     "name": "Altera",
