@@ -46,7 +46,7 @@ function renderBike(bike) {
       <div class="detail-info">
         <h1>${bike.name}</h1>
         <p class="tagline">${bike.tagline}</p>
-        <div class="price">${bike.price}</div>
+        <div class="price">${priceHtml(bike)}</div>
 
         <div class="spec-tag">
           <h4>${bike.specsTitle || 'Technische specificaties'}</h4>
@@ -81,7 +81,9 @@ function buildWhatsAppMessage(bike) {
   const pageUrl = window.location.href;
 
   const lines = [
-    `Hallo, ik ben geinteresseerd in de "${bike.name}" (${bike.price}).`,
+    bike.oldPrice
+      ? `Hallo, ik ben geinteresseerd in de "${bike.name}" (nu ${bike.price}, was ${bike.oldPrice}).`
+      : `Hallo, ik ben geinteresseerd in de "${bike.name}" (${bike.price}).`,
     `Bekijk hier alle informatie over deze fiets: ${pageUrl}`,
   ];
 
@@ -201,4 +203,10 @@ function setupGallery(bike) {
     const diff = e.changedTouches[0].clientX - lightboxStartX;
     if (Math.abs(diff) > 40) showLightbox(diff > 0 ? lightboxIndex - 1 : lightboxIndex + 1);
   }, { passive: true });
+}
+
+// Price markup: when a bike has "oldPrice", show it struck through next to the new price
+function priceHtml(bike) {
+  if (!bike.oldPrice) return bike.price;
+  return `<s style="color:var(--color-text-muted); font-size:0.75em; margin-right:10px;">${bike.oldPrice}</s>${bike.price}`;
 }
