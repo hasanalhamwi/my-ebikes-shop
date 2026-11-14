@@ -28,9 +28,15 @@ function renderBikes(bikes) {
         <div class="status">${bike.status}</div>
         <h3>${bike.name}</h3>
         <p class="tagline">${bike.tagline}</p>
-        <div class="price">${bike.price}</div>
+        <div class="price">${priceHtml(bike)}</div>
         <span class="btn btn-primary">Bekijk details</span>
       </div>
     </a>
   `).join('');
+}
+
+// Price markup: when a bike has "oldPrice", show it struck through next to the new price
+function priceHtml(bike) {
+  if (!bike.oldPrice) return bike.price;
+  return `<s style="color:var(--color-text-muted); font-size:0.75em; margin-right:10px;">${bike.oldPrice}</s>${bike.price}`;
 }
