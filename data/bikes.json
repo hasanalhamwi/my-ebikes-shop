@@ -3,7 +3,8 @@
     "id": "gazelle-ultimate-t3i",
     "name": "Gazelle Ultimate T3i",
     "tagline": "Heel mooie, lichte en sterke elektrische fiets, zeer netjes en voorzien van een volledig vernieuwd elektrisch systeem.",
-    "price": "€700",
+    "price": "€630",
+    "oldPrice": "€700",
     "status": "Beschikbaar",
     "cover": "images/gazelle-ultimate-t3i/cover.jpg",
     "gallery": [
@@ -59,7 +60,8 @@
     "id": "devron",
     "name": "Devron",
     "tagline": "Sterke en lichte elektrische fiets, zeer netjes en met een vernieuwd elektrisch systeem.",
-    "price": "€485",
+    "price": "€437",
+    "oldPrice": "€485",
     "status": "Beschikbaar",
     "cover": "images/devron/cover.jpg",
     "gallery": [
@@ -111,12 +113,12 @@
     ],
     "whatsapp": "31648671806"
   },
-  
   {
     "id": "amego-e-vibe-d2-herenfiets",
     "name": "Amego E-Vibe D2 Herenfiets",
     "tagline": "De fiets ziet er netjes en bijna als nieuw uit, met een vernieuwd elektrisch systeem.",
-    "price": "€445",
+    "price": "€401",
+    "oldPrice": "€445",
     "status": "Binnenkort beschikbaar",
     "cover": "images/amego-e-vibe-d2-herenfiets/cover.jpg",
     "gallery": [
@@ -173,7 +175,8 @@
     "id": "batavus-weekend-easy",
     "name": "Batavus Weekend Easy",
     "tagline": "Comfortabele en sterke e-bike, netjes uitgevoerd en voorzien van een volledig vernieuwd elektrisch systeem.",
-    "price": "€650",
+    "price": "€585",
+    "oldPrice": "€650",
     "status": "Beschikbaar",
     "cover": "images/batavus-weekend-easy/cover.jpg",
     "gallery": [
@@ -225,12 +228,12 @@
     ],
     "whatsapp": "31648671806"
   },
-  
   {
     "id": "altera",
     "name": "Altera",
     "tagline": "Robuuste stadsfiets met betrouwbare elektrische ondersteuning en een nieuwe accu.",
-    "price": "€445",
+    "price": "€401",
+    "oldPrice": "€445",
     "status": "Binnenkort beschikbaar",
     "cover": "images/altera/cover.jpg",
     "gallery": [
@@ -285,7 +288,8 @@
     "id": "amslod-hamilton-sx",
     "name": "Amslod Hamilton SX",
     "tagline": "Klassieke Amslod e-bike met comfortabele zit, betrouwbare elektrische ondersteuning en een nieuwe accu.",
-    "price": "€445",
+    "price": "€401",
+    "oldPrice": "€445",
     "status": "Beschikbaar",
     "cover": "images/amslod-hamilton-sx/cover.jpg",
     "gallery": [
@@ -340,7 +344,8 @@
     "id": "stella-modena-excellence",
     "name": "Stella Modena Excellence",
     "tagline": "Sterke elektrische fiets, zeer netjes en met een volledig vernieuwd elektrisch systeem.",
-    "price": "€600",
+    "price": "€540",
+    "oldPrice": "€600",
     "status": "Beschikbaar",
     "cover": "images/stella-modena-excellence/cover.jpg",
     "gallery": [
@@ -398,7 +403,8 @@
     "id": "colorado-arrow",
     "name": "Colorado Arrow",
     "tagline": "Mooie stads-e-bike, bijna als nieuw met een volledig vernieuwd elektrisch systeem.",
-    "price": "€600",
+    "price": "€540",
+    "oldPrice": "€600",
     "status": "Beschikbaar",
     "cover": "images/colorado-arrow/cover.jpg",
     "gallery": [
@@ -454,7 +460,8 @@
     "id": "sparta-f7-e",
     "name": "Sparta F7e",
     "tagline": "Nette stadsfiets met elektrische ondersteuning en een nieuwe accu, geschikt voor verschillende dagelijkse ritten.",
-    "price": "€445",
+    "price": "€401",
+    "oldPrice": "€445",
     "status": "Beschikbaar",
     "cover": "images/sparta-f7-e/cover.jpg",
     "gallery": [
@@ -510,7 +517,8 @@
     "id": "sparta-f8-e-limited-series",
     "name": "Sparta F8e Limited Series",
     "tagline": "Zeer nette elektrische fiets met een volledig vernieuwd elektrisch systeem, ideaal voor dagelijks gebruik en langere ritten.",
-    "price": "€650",
+    "price": "€585",
+    "oldPrice": "€650",
     "status": "Beschikbaar",
     "cover": "images/sparta-f8-e-limited-series/cover.jpg",
     "gallery": [
@@ -566,7 +574,8 @@
     "id": "stella-albatros",
     "name": "Stella Albatros",
     "tagline": "Klassieke Stella e-bike met een prettige zit en betrouwbare elektrische ondersteuning.",
-    "price": "€485",
+    "price": "€437",
+    "oldPrice": "€485",
     "status": "Binnenkort beschikbaar",
     "cover": "images/stella-albatros/cover.jpg",
     "gallery": [
@@ -621,7 +630,8 @@
     "id": "stella-vicenza",
     "name": "Stella Vicenza",
     "tagline": "Degelijke en stijlvolle e-bike met een compleet nieuwe elektrische aandrijving voor comfortabel fietsen.",
-    "price": "€445",
+    "price": "€401",
+    "oldPrice": "€445",
     "status": "Beschikbaar",
     "cover": "images/stella-vicenza/cover.jpg",
     "gallery": [
@@ -676,7 +686,8 @@
     "id": "qwic-n7.1",
     "name": "QWIC N7.1",
     "tagline": "Comfortabele stadsfiets met elektrische ondersteuning, ideaal voor korte en langere ritten.",
-    "price": "€375",
+    "price": "€338",
+    "oldPrice": "€375",
     "status": "Beschikbaar",
     "cover": "images/qwic-n7.1/cover.jpg",
     "gallery": [
@@ -731,7 +742,8 @@
     "id": "sparta-e-motion-c3",
     "name": "Sparta e-Motion C3",
     "tagline": "Nette stadsfiets met elektrische ondersteuning en een nieuwe accu, geschikt voor verschillende dagelijkse ritten.",
-    "price": "€500",
+    "price": "€450",
+    "oldPrice": "€500",
     "status": "Binnenkort beschikbaar",
     "cover": "images/sparta-e-motion-c3/cover.jpg",
     "gallery": [
@@ -786,7 +798,8 @@
     "id": "batavus-e90",
     "name": "Batavus e.90",
     "tagline": "Nette stadsfiets met elektrische ondersteuning en een nieuwe accu, geschikt voor verschillende dagelijkse ritten.",
-    "price": "€400",
+    "price": "€360",
+    "oldPrice": "€400",
     "status": "Beschikbaar",
     "cover": "images/batavus-e.90/cover.jpg",
     "gallery": [
