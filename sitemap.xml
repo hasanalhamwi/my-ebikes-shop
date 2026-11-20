@@ -5,7 +5,71 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://e-bikes-enno.nl/bike.html</loc>
+    <loc>https://e-bikes-enno.nl/bike.html?id=gazelle-ultimate-t3i</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://e-bikes-enno.nl/bike.html?id=devron</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://e-bikes-enno.nl/bike.html?id=amego-e-vibe-d2-herenfiets</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://e-bikes-enno.nl/bike.html?id=gazelle-orange-c7</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://e-bikes-enno.nl/bike.html?id=batavus-weekend-easy</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://e-bikes-enno.nl/bike.html?id=altera</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://e-bikes-enno.nl/bike.html?id=amslod-hamilton-sx</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://e-bikes-enno.nl/bike.html?id=stella-modena-excellence</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://e-bikes-enno.nl/bike.html?id=colorado-arrow</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://e-bikes-enno.nl/bike.html?id=sparta-f7-e</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://e-bikes-enno.nl/bike.html?id=sparta-f8-e-limited-series</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://e-bikes-enno.nl/bike.html?id=stella-albatros</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://e-bikes-enno.nl/bike.html?id=stella-vicenza</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://e-bikes-enno.nl/bike.html?id=qwic-n7.1</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://e-bikes-enno.nl/bike.html?id=stella-vicenza-blue</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://e-bikes-enno.nl/bike.html?id=sparta-e-motion-c3</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://e-bikes-enno.nl/bike.html?id=batavus-e90</loc>
     <priority>0.8</priority>
   </url>
   <url>
