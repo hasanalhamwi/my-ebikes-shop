@@ -401,8 +401,8 @@
     "id": "stella-modena-excellence",
     "name": "Stella Modena Excellence",
     "tagline": "Sterke elektrische fiets, zeer netjes en met een volledig vernieuwd elektrisch systeem.",
-    "price": "€540",
-    "oldPrice": "€600",
+    "price": "€585",
+    "oldPrice": "€630",
     "status": "Beschikbaar",
     "cover": "images/stella-modena-excellence/cover.jpg",
     "gallery": [
@@ -836,7 +836,7 @@
       },
       {
         "item": "Accu",
-        "state": "een maand"
+        "state": "6 maanden"
       },
       {
         "item": "Controller",
