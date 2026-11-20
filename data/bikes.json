@@ -172,6 +172,63 @@
     "whatsapp": "31648671806"
   },
   {
+    "id": "gazelle-orange-c7",
+    "name": "Gazelle Orange C7",
+    "tagline": "Heel mooie, lichte en sterke elektrische fiets, zeer netjes en voorzien van een volledig vernieuwd elektrisch systeem.",
+    "price": "€600",
+    "oldPrice": "€650",
+    "status": "Beschikbaar",
+    "cover": "images/gazelle-orange-c7/cover.jpg",
+    "gallery": [
+      "images/gazelle-orange-c7/1.jpg",
+      "images/gazelle-orange-c7/2.jpg",
+      "images/gazelle-orange-c7/3.jpg",
+      "images/gazelle-orange-c7/4.jpg",
+      "images/gazelle-orange-c7/5.jpg",
+      "images/gazelle-orange-c7/6.jpg",
+      "images/gazelle-orange-c7/7.jpg"
+    ],
+    "specsTitle": "Specificaties",
+    "specs": {
+      "Framemaat": "50 cm",
+      "Motor": "Nieuw, 36V 250W",
+      "Accu": "Nieuw, 36V / 13Ah / 466Wh",
+      "Oplader": "Nieuw, output 42.0V / 2.0A",
+      "Actieradius": "80-100 km",
+      "Versnellingen": "7-speed Shimano Nexus",
+      "Controller": "Nieuw",
+      "Kabels": "Nieuw",
+      "Sensoren": "Nieuw",
+      "Ondersteuningsstanden": "5 standen",
+      "Display": "Modern, nieuw",
+      "Wielmaat": "28 inch"
+    },
+    "conditionTitle": "Elektrische onderdelen &amp; garantie",
+    "condition": [
+      {
+        "item": "Motor",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Accu",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Controller",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Display",
+        "state": "6 maanden"
+      },
+      {
+        "item": "Oplader",
+        "state": "6 maanden"
+      }
+    ],
+    "whatsapp": "31648671806"
+  },
+  {
     "id": "batavus-weekend-easy",
     "name": "Batavus Weekend Easy",
     "tagline": "Comfortabele en sterke e-bike, netjes uitgevoerd en voorzien van een volledig vernieuwd elektrisch systeem.",
