@@ -513,63 +513,7 @@
     ],
     "whatsapp": "31648671806"
   },
-  {
-    "id": "sparta-f7-e",
-    "name": "Sparta F7e",
-    "tagline": "Nette stadsfiets met elektrische ondersteuning en een nieuwe accu, geschikt voor verschillende dagelijkse ritten.",
-    "price": "€400",
-    "oldPrice": "€445",
-    "status": "Beschikbaar",
-    "cover": "images/sparta-f7-e/cover.jpg",
-    "gallery": [
-      "images/sparta-f7-e/1.jpg",
-      "images/sparta-f7-e/2.jpg",
-      "images/sparta-f7-e/3.jpg",
-      "images/sparta-f7-e/4.jpg",
-      "images/sparta-f7-e/5.jpg",
-      "images/sparta-f7-e/6.jpg",
-      "images/sparta-f7-e/7.jpg"
-    ],
-    "specsTitle": "Specificaties",
-    "specs": {
-      "Framemaat": "52 cm",
-      "Motor": "gebruikte Sparta F7e",
-      "Accu": "Nieuw, 36V / 13Ah / 466Wh",
-      "Oplader": "Nieuw, output 42.0V / 2.0A",
-      "Actieradius": "80-100 km",
-      "Versnellingen": "7-speed Shimano Nexus",
-      "Controller": "gebruikte Sparta F7e",
-      "Kabels": "gebruikte Sparta F7e",
-      "Sensoren": "gebruikte Sparta F7e",
-      "Ondersteuningsstanden": "4 standen",
-      "Display": "gebruikte Sparta F7e",
-      "Wielmaat": "28 inch"
-    },
-    "conditionTitle": "Elektrische onderdelen &amp; garantie",
-    "condition": [
-      {
-        "item": "Motor",
-        "state": "een week"
-      },
-      {
-        "item": "Accu",
-        "state": "6 maanden"
-      },
-      {
-        "item": "Controller",
-        "state": "een week"
-      },
-      {
-        "item": "Display",
-        "state": "een week"
-      },
-      {
-        "item": "Oplader",
-        "state": "6 maanden"
-      }
-    ],
-    "whatsapp": "31648671806"
-  },
+  
   {
     "id": "sparta-f8-e-limited-series",
     "name": "Sparta F8e Limited Series",
